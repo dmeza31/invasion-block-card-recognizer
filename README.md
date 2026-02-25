@@ -4,7 +4,6 @@ This repository uses a split documentation structure for easier navigation and w
 
 ## Sections
 
-- [Overview](wiki/00-overview.md)
 - [1. Project Overview](wiki/01-project-overview.md)
 - [2. System Architecture](wiki/02-system-architecture.md)
 - [3. API Specification](wiki/03-api-specification.md)
