@@ -13,7 +13,7 @@ Build a production-ready web application that identifies Magic: The Gathering ca
 - REST API for programmatic access
 - Confidence scoring and top-N predictions
 - Card metadata retrieval (name, set, collector number, rarity)
-- Three recognition approaches: CLIP embeddings + FAISS, CNN classification, perceptual hashing
+- Three recognition approach: CLIP embeddings + FAISS
 
 **Out of Scope (Phase 1):**
 - Real-time video stream recognition
@@ -23,6 +23,7 @@ Build a production-ready web application that identifies Magic: The Gathering ca
 - Mobile-native applications (iOS/Android)
 - Bulk processing of multiple images
 - Authentication and user account management
+- Recognition approach CNN classification, perceptual hashing
 
 ### 1.3 Target Users
 
