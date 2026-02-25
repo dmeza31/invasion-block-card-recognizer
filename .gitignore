@@ -205,3 +205,26 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project data artifacts (generated/downloaded)
+data/reference_images/
+data/augmented_images/
+data/backgrounds/
+data/composited/
+data/card_embeddings.npy
+data/faiss_index.bin
+
+# Keep this metadata file tracked
+!data/card_metadata.json
+
+# Local model/checkpoint artifacts
+models/*.pth
+models/*.pt
+models/*.onnx
+
+# Local OS/editor files
+.DS_Store
+
+# Local logs and runtime outputs
+*.out
+*.err

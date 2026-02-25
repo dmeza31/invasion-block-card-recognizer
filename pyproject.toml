@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "mtg-invasion-recognizer"
+version = "0.1.0"
+description = "MTG Invasion Block card recognition system"
+authors = ["Daniel Meza <danielmezamadrigal@gmail.com>"]
+readme = "README.md"
+packages = [
+  { include = "dataset", from = "src" },
+  { include = "recognizer", from = "src" },
+  { include = "api", from = "src" },
+  { include = "ui", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+openai-clip = "*"
+faiss-cpu = "1.9.0"
+torch = "2.5.0"
+torchvision = "0.20.0"
+Pillow = "*"
+requests = "*"
+fastapi = "*"
+uvicorn = "*"
+python-multipart = "*"
+streamlit = "*"
+numpy = "*"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"
