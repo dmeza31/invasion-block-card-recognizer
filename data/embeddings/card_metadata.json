@@ -1,0 +1,3830 @@
+[
+  {
+    "set_code": "apc",
+    "collector_number": "100",
+    "card_name": "Fungal Shambler",
+    "image_path": "data/reference_images/apc/100_Fungal_Shambler.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "101",
+    "card_name": "Gaea s Skyfolk",
+    "image_path": "data/reference_images/apc/101_Gaea_s_Skyfolk.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "102",
+    "card_name": "Gerrard s Verdict",
+    "image_path": "data/reference_images/apc/102_Gerrard_s_Verdict.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "103",
+    "card_name": "Goblin Legionnaire",
+    "image_path": "data/reference_images/apc/103_Goblin_Legionnaire.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "104",
+    "card_name": "Goblin Trenches",
+    "image_path": "data/reference_images/apc/104_Goblin_Trenches.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "105",
+    "card_name": "Guided Passage",
+    "image_path": "data/reference_images/apc/105_Guided_Passage.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "106",
+    "card_name": "Jungle Barrier",
+    "image_path": "data/reference_images/apc/106_Jungle_Barrier.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "107",
+    "card_name": "Last Stand",
+    "image_path": "data/reference_images/apc/107_Last_Stand.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "108",
+    "card_name": "Lightning Angel",
+    "image_path": "data/reference_images/apc/108_Lightning_Angel.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "109",
+    "card_name": "Llanowar Dead",
+    "image_path": "data/reference_images/apc/109_Llanowar_Dead.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "10",
+    "card_name": "False Dawn",
+    "image_path": "data/reference_images/apc/10_False_Dawn.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "110",
+    "card_name": "Martyrs Tomb",
+    "image_path": "data/reference_images/apc/110_Martyrs_Tomb.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "111",
+    "card_name": "Minotaur Illusionist",
+    "image_path": "data/reference_images/apc/111_Minotaur_Illusionist.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "112",
+    "card_name": "Mystic Snake",
+    "image_path": "data/reference_images/apc/112_Mystic_Snake.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "113",
+    "card_name": "Overgrown Estate",
+    "image_path": "data/reference_images/apc/113_Overgrown_Estate.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "114",
+    "card_name": "Pernicious Deed",
+    "image_path": "data/reference_images/apc/114_Pernicious_Deed.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "115",
+    "card_name": "Powerstone Minefield",
+    "image_path": "data/reference_images/apc/115_Powerstone_Minefield.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "116",
+    "card_name": "Prophetic Bolt",
+    "image_path": "data/reference_images/apc/116_Prophetic_Bolt.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "117",
+    "card_name": "Putrid Warrior",
+    "image_path": "data/reference_images/apc/117_Putrid_Warrior.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "118",
+    "card_name": "Quicksilver Dagger",
+    "image_path": "data/reference_images/apc/118_Quicksilver_Dagger.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "119",
+    "card_name": "Razorfin Hunter",
+    "image_path": "data/reference_images/apc/119_Razorfin_Hunter.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "11",
+    "card_name": "Gerrard Capashen",
+    "image_path": "data/reference_images/apc/11_Gerrard_Capashen.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "120",
+    "card_name": "Soul Link",
+    "image_path": "data/reference_images/apc/120_Soul_Link.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "121",
+    "card_name": "Spiritmonger",
+    "image_path": "data/reference_images/apc/121_Spiritmonger.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "122",
+    "card_name": "Squee s Embrace",
+    "image_path": "data/reference_images/apc/122_Squee_s_Embrace.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "123",
+    "card_name": "Squee s Revenge",
+    "image_path": "data/reference_images/apc/123_Squee_s_Revenge.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "124",
+    "card_name": "Suffocating Blast",
+    "image_path": "data/reference_images/apc/124_Suffocating_Blast.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "125",
+    "card_name": "Temporal Spring",
+    "image_path": "data/reference_images/apc/125_Temporal_Spring.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "126",
+    "card_name": "Vindicate",
+    "image_path": "data/reference_images/apc/126_Vindicate.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "127",
+    "card_name": "Yavimaya s Embrace",
+    "image_path": "data/reference_images/apc/127_Yavimaya_s_Embrace.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "128",
+    "card_name": "Fire Ice",
+    "image_path": "data/reference_images/apc/128_Fire_Ice.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "129",
+    "card_name": "Illusion Reality",
+    "image_path": "data/reference_images/apc/129_Illusion_Reality.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "12",
+    "card_name": "Haunted Angel",
+    "image_path": "data/reference_images/apc/12_Haunted_Angel.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "130",
+    "card_name": "Life Death",
+    "image_path": "data/reference_images/apc/130_Life_Death.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "131",
+    "card_name": "Night Day",
+    "image_path": "data/reference_images/apc/131_Night_Day.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "132",
+    "card_name": "Order Chaos",
+    "image_path": "data/reference_images/apc/132_Order_Chaos.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "133",
+    "card_name": "Brass Herald",
+    "image_path": "data/reference_images/apc/133_Brass_Herald.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "134",
+    "card_name": "Dodecapod",
+    "image_path": "data/reference_images/apc/134_Dodecapod.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "135",
+    "card_name": "Dragon Arch",
+    "image_path": "data/reference_images/apc/135_Dragon_Arch.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "136",
+    "card_name": "Emblazoned Golem",
+    "image_path": "data/reference_images/apc/136_Emblazoned_Golem.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "137",
+    "card_name": "Legacy Weapon",
+    "image_path": "data/reference_images/apc/137_Legacy_Weapon.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "138",
+    "card_name": "Mask of Intolerance",
+    "image_path": "data/reference_images/apc/138_Mask_of_Intolerance.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "139",
+    "card_name": "Battlefield Forge",
+    "image_path": "data/reference_images/apc/139_Battlefield_Forge.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "13",
+    "card_name": "Helionaut",
+    "image_path": "data/reference_images/apc/13_Helionaut.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "140",
+    "card_name": "Caves of Koilos",
+    "image_path": "data/reference_images/apc/140_Caves_of_Koilos.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "141",
+    "card_name": "Llanowar Wastes",
+    "image_path": "data/reference_images/apc/141_Llanowar_Wastes.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "142",
+    "card_name": "Shivan Reef",
+    "image_path": "data/reference_images/apc/142_Shivan_Reef.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "143",
+    "card_name": "Yavimaya Coast",
+    "image_path": "data/reference_images/apc/143_Yavimaya_Coast.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "14",
+    "card_name": "Manacles of Decay",
+    "image_path": "data/reference_images/apc/14_Manacles_of_Decay.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "15",
+    "card_name": "Orim s Thunder",
+    "image_path": "data/reference_images/apc/15_Orim_s_Thunder.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "16",
+    "card_name": "Shield of Duty and Reason",
+    "image_path": "data/reference_images/apc/16_Shield_of_Duty_and_Reason.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "17",
+    "card_name": "Spectral Lynx",
+    "image_path": "data/reference_images/apc/17_Spectral_Lynx.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "18",
+    "card_name": "Standard Bearer",
+    "image_path": "data/reference_images/apc/18_Standard_Bearer.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "19",
+    "card_name": "Ceta Disciple",
+    "image_path": "data/reference_images/apc/19_Ceta_Disciple.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "1",
+    "card_name": "Angelfire Crusader",
+    "image_path": "data/reference_images/apc/1_Angelfire_Crusader.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "20",
+    "card_name": "Ceta Sanctuary",
+    "image_path": "data/reference_images/apc/20_Ceta_Sanctuary.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "21",
+    "card_name": "Cetavolver",
+    "image_path": "data/reference_images/apc/21_Cetavolver.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "22",
+    "card_name": "Coastal Drake",
+    "image_path": "data/reference_images/apc/22_Coastal_Drake.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "23",
+    "card_name": "Evasive Action",
+    "image_path": "data/reference_images/apc/23_Evasive_Action.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "24",
+    "card_name": "Ice Cave",
+    "image_path": "data/reference_images/apc/24_Ice_Cave.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "25",
+    "card_name": "Index",
+    "image_path": "data/reference_images/apc/25_Index.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "26",
+    "card_name": "Jaded Response",
+    "image_path": "data/reference_images/apc/26_Jaded_Response.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "27",
+    "card_name": "Jilt",
+    "image_path": "data/reference_images/apc/27_Jilt.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "28",
+    "card_name": "Living Airship",
+    "image_path": "data/reference_images/apc/28_Living_Airship.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "29",
+    "card_name": "Reef Shaman",
+    "image_path": "data/reference_images/apc/29_Reef_Shaman.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "2",
+    "card_name": "Coalition Flag",
+    "image_path": "data/reference_images/apc/2_Coalition_Flag.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "30",
+    "card_name": "Shimmering Mirage",
+    "image_path": "data/reference_images/apc/30_Shimmering_Mirage.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "31",
+    "card_name": "Tidal Courier",
+    "image_path": "data/reference_images/apc/31_Tidal_Courier.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "32",
+    "card_name": "Unnatural Selection",
+    "image_path": "data/reference_images/apc/32_Unnatural_Selection.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "33",
+    "card_name": "Vodalian Mystic",
+    "image_path": "data/reference_images/apc/33_Vodalian_Mystic.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "34",
+    "card_name": "Whirlpool Drake",
+    "image_path": "data/reference_images/apc/34_Whirlpool_Drake.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "35",
+    "card_name": "Whirlpool Rider",
+    "image_path": "data/reference_images/apc/35_Whirlpool_Rider.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "36",
+    "card_name": "Whirlpool Warrior",
+    "image_path": "data/reference_images/apc/36_Whirlpool_Warrior.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "37",
+    "card_name": "Dead Ringers",
+    "image_path": "data/reference_images/apc/37_Dead_Ringers.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "38",
+    "card_name": "Desolation Angel",
+    "image_path": "data/reference_images/apc/38_Desolation_Angel.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "39",
+    "card_name": "Foul Presence",
+    "image_path": "data/reference_images/apc/39_Foul_Presence.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "3",
+    "card_name": "Coalition Honor Guard",
+    "image_path": "data/reference_images/apc/3_Coalition_Honor_Guard.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "40",
+    "card_name": "Grave Defiler",
+    "image_path": "data/reference_images/apc/40_Grave_Defiler.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "41",
+    "card_name": "Last Caress",
+    "image_path": "data/reference_images/apc/41_Last_Caress.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "42",
+    "card_name": "Mind Extraction",
+    "image_path": "data/reference_images/apc/42_Mind_Extraction.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "43",
+    "card_name": "Mournful Zombie",
+    "image_path": "data/reference_images/apc/43_Mournful_Zombie.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "44",
+    "card_name": "Necra Disciple",
+    "image_path": "data/reference_images/apc/44_Necra_Disciple.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "45",
+    "card_name": "Necra Sanctuary",
+    "image_path": "data/reference_images/apc/45_Necra_Sanctuary.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "46",
+    "card_name": "Necravolver",
+    "image_path": "data/reference_images/apc/46_Necravolver.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "47",
+    "card_name": "Phyrexian Arena",
+    "image_path": "data/reference_images/apc/47_Phyrexian_Arena.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "48",
+    "card_name": "Phyrexian Gargantua",
+    "image_path": "data/reference_images/apc/48_Phyrexian_Gargantua.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "49",
+    "card_name": "Phyrexian Rager",
+    "image_path": "data/reference_images/apc/49_Phyrexian_Rager.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "4",
+    "card_name": "Dega Disciple",
+    "image_path": "data/reference_images/apc/4_Dega_Disciple.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "50",
+    "card_name": "Planar Despair",
+    "image_path": "data/reference_images/apc/50_Planar_Despair.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "51",
+    "card_name": "Quagmire Druid",
+    "image_path": "data/reference_images/apc/51_Quagmire_Druid.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "52",
+    "card_name": "Suppress",
+    "image_path": "data/reference_images/apc/52_Suppress.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "53",
+    "card_name": "Urborg Uprising",
+    "image_path": "data/reference_images/apc/53_Urborg_Uprising.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "54",
+    "card_name": "Zombie Boa",
+    "image_path": "data/reference_images/apc/54_Zombie_Boa.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "55",
+    "card_name": "Bloodfire Colossus",
+    "image_path": "data/reference_images/apc/55_Bloodfire_Colossus.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "56",
+    "card_name": "Bloodfire Dwarf",
+    "image_path": "data/reference_images/apc/56_Bloodfire_Dwarf.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "57",
+    "card_name": "Bloodfire Infusion",
+    "image_path": "data/reference_images/apc/57_Bloodfire_Infusion.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "58",
+    "card_name": "Bloodfire Kavu",
+    "image_path": "data/reference_images/apc/58_Bloodfire_Kavu.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "59",
+    "card_name": "Desolation Giant",
+    "image_path": "data/reference_images/apc/59_Desolation_Giant.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "5",
+    "card_name": "Dega Sanctuary",
+    "image_path": "data/reference_images/apc/5_Dega_Sanctuary.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "60",
+    "card_name": "Dwarven Landslide",
+    "image_path": "data/reference_images/apc/60_Dwarven_Landslide.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "61",
+    "card_name": "Dwarven Patrol",
+    "image_path": "data/reference_images/apc/61_Dwarven_Patrol.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "62",
+    "card_name": "Goblin Ringleader",
+    "image_path": "data/reference_images/apc/62_Goblin_Ringleader.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "63",
+    "card_name": "Illuminate",
+    "image_path": "data/reference_images/apc/63_Illuminate.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "64",
+    "card_name": "Kavu Glider",
+    "image_path": "data/reference_images/apc/64_Kavu_Glider.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "65",
+    "card_name": "Minotaur Tactician",
+    "image_path": "data/reference_images/apc/65_Minotaur_Tactician.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "66",
+    "card_name": "Raka Disciple",
+    "image_path": "data/reference_images/apc/66_Raka_Disciple.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "67",
+    "card_name": "Raka Sanctuary",
+    "image_path": "data/reference_images/apc/67_Raka_Sanctuary.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "68",
+    "card_name": "Rakavolver",
+    "image_path": "data/reference_images/apc/68_Rakavolver.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "69",
+    "card_name": "Smash",
+    "image_path": "data/reference_images/apc/69_Smash.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "6",
+    "card_name": "Degavolver",
+    "image_path": "data/reference_images/apc/6_Degavolver.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "70",
+    "card_name": "Tahngarth s Glare",
+    "image_path": "data/reference_images/apc/70_Tahngarth_s_Glare.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "71",
+    "card_name": "Tundra Kavu",
+    "image_path": "data/reference_images/apc/71_Tundra_Kavu.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "72",
+    "card_name": "Wild Research",
+    "image_path": "data/reference_images/apc/72_Wild_Research.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "73",
+    "card_name": "Ana Disciple",
+    "image_path": "data/reference_images/apc/73_Ana_Disciple.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "74",
+    "card_name": "Ana Sanctuary",
+    "image_path": "data/reference_images/apc/74_Ana_Sanctuary.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "75",
+    "card_name": "Anavolver",
+    "image_path": "data/reference_images/apc/75_Anavolver.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "76",
+    "card_name": "Bog Gnarr",
+    "image_path": "data/reference_images/apc/76_Bog_Gnarr.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "77",
+    "card_name": "Gaea s Balance",
+    "image_path": "data/reference_images/apc/77_Gaea_s_Balance.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "78",
+    "card_name": "Glade Gnarr",
+    "image_path": "data/reference_images/apc/78_Glade_Gnarr.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "79",
+    "card_name": "Kavu Howler",
+    "image_path": "data/reference_images/apc/79_Kavu_Howler.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "7",
+    "card_name": "Diversionary Tactics",
+    "image_path": "data/reference_images/apc/7_Diversionary_Tactics.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "80",
+    "card_name": "Kavu Mauler",
+    "image_path": "data/reference_images/apc/80_Kavu_Mauler.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "81",
+    "card_name": "Lay of the Land",
+    "image_path": "data/reference_images/apc/81_Lay_of_the_Land.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "82",
+    "card_name": "Penumbra Bobcat",
+    "image_path": "data/reference_images/apc/82_Penumbra_Bobcat.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "83",
+    "card_name": "Penumbra Kavu",
+    "image_path": "data/reference_images/apc/83_Penumbra_Kavu.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "84",
+    "card_name": "Penumbra Wurm",
+    "image_path": "data/reference_images/apc/84_Penumbra_Wurm.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "85",
+    "card_name": "Savage Gorilla",
+    "image_path": "data/reference_images/apc/85_Savage_Gorilla.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "86",
+    "card_name": "Strength of Night",
+    "image_path": "data/reference_images/apc/86_Strength_of_Night.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "87",
+    "card_name": "Sylvan Messenger",
+    "image_path": "data/reference_images/apc/87_Sylvan_Messenger.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "88",
+    "card_name": "Symbiotic Deployment",
+    "image_path": "data/reference_images/apc/88_Symbiotic_Deployment.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "89",
+    "card_name": "Tranquil Path",
+    "image_path": "data/reference_images/apc/89_Tranquil_Path.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "8",
+    "card_name": "Divine Light",
+    "image_path": "data/reference_images/apc/8_Divine_Light.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "90",
+    "card_name": "Urborg Elf",
+    "image_path": "data/reference_images/apc/90_Urborg_Elf.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "91",
+    "card_name": "Aether Mutation",
+    "image_path": "data/reference_images/apc/91_Aether_Mutation.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "92",
+    "card_name": "Captain s Maneuver",
+    "image_path": "data/reference_images/apc/92_Captain_s_Maneuver.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "93",
+    "card_name": "Consume Strength",
+    "image_path": "data/reference_images/apc/93_Consume_Strength.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "94",
+    "card_name": "Cromat",
+    "image_path": "data/reference_images/apc/94_Cromat.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "95",
+    "card_name": "Death Grasp",
+    "image_path": "data/reference_images/apc/95_Death_Grasp.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "96",
+    "card_name": "Death Mutation",
+    "image_path": "data/reference_images/apc/96_Death_Mutation.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "97",
+    "card_name": "Ebony Treefolk",
+    "image_path": "data/reference_images/apc/97_Ebony_Treefolk.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "98",
+    "card_name": "Fervent Charge",
+    "image_path": "data/reference_images/apc/98_Fervent_Charge.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "99",
+    "card_name": "Flowstone Charger",
+    "image_path": "data/reference_images/apc/99_Flowstone_Charger.jpg"
+  },
+  {
+    "set_code": "apc",
+    "collector_number": "9",
+    "card_name": "Enlistment Officer",
+    "image_path": "data/reference_images/apc/9_Enlistment_Officer.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "100",
+    "card_name": "Desperate Research",
+    "image_path": "data/reference_images/inv/100_Desperate_Research.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "101",
+    "card_name": "Devouring Strossus",
+    "image_path": "data/reference_images/inv/101_Devouring_Strossus.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "102",
+    "card_name": "Do or Die",
+    "image_path": "data/reference_images/inv/102_Do_or_Die.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "103",
+    "card_name": "Dredge",
+    "image_path": "data/reference_images/inv/103_Dredge.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "104",
+    "card_name": "Duskwalker",
+    "image_path": "data/reference_images/inv/104_Duskwalker.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "105",
+    "card_name": "Exotic Curse",
+    "image_path": "data/reference_images/inv/105_Exotic_Curse.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "106",
+    "card_name": "Firescreamer",
+    "image_path": "data/reference_images/inv/106_Firescreamer.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "107",
+    "card_name": "Goham Djinn",
+    "image_path": "data/reference_images/inv/107_Goham_Djinn.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "108",
+    "card_name": "Hate Weaver",
+    "image_path": "data/reference_images/inv/108_Hate_Weaver.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "109",
+    "card_name": "Hypnotic Cloud",
+    "image_path": "data/reference_images/inv/109_Hypnotic_Cloud.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "10",
+    "card_name": "Capashen Unicorn",
+    "image_path": "data/reference_images/inv/10_Capashen_Unicorn.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "110",
+    "card_name": "Marauding Knight",
+    "image_path": "data/reference_images/inv/110_Marauding_Knight.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "111",
+    "card_name": "Mourning",
+    "image_path": "data/reference_images/inv/111_Mourning.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "112",
+    "card_name": "Nightscape Apprentice",
+    "image_path": "data/reference_images/inv/112_Nightscape_Apprentice.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "113",
+    "card_name": "Nightscape Master",
+    "image_path": "data/reference_images/inv/113_Nightscape_Master.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "114",
+    "card_name": "Phyrexian Battleflies",
+    "image_path": "data/reference_images/inv/114_Phyrexian_Battleflies.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "115",
+    "card_name": "Phyrexian Delver",
+    "image_path": "data/reference_images/inv/115_Phyrexian_Delver.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "116",
+    "card_name": "Phyrexian Infiltrator",
+    "image_path": "data/reference_images/inv/116_Phyrexian_Infiltrator.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "117",
+    "card_name": "Phyrexian Reaper",
+    "image_path": "data/reference_images/inv/117_Phyrexian_Reaper.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "118",
+    "card_name": "Phyrexian Slayer",
+    "image_path": "data/reference_images/inv/118_Phyrexian_Slayer.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "119",
+    "card_name": "Plague Spitter",
+    "image_path": "data/reference_images/inv/119_Plague_Spitter.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "11",
+    "card_name": "Crimson Acolyte",
+    "image_path": "data/reference_images/inv/11_Crimson_Acolyte.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "120",
+    "card_name": "Ravenous Rats",
+    "image_path": "data/reference_images/inv/120_Ravenous_Rats.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "121",
+    "card_name": "Reckless Spite",
+    "image_path": "data/reference_images/inv/121_Reckless_Spite.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "122",
+    "card_name": "Recover",
+    "image_path": "data/reference_images/inv/122_Recover.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "123",
+    "card_name": "Scavenged Weaponry",
+    "image_path": "data/reference_images/inv/123_Scavenged_Weaponry.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "124",
+    "card_name": "Soul Burn",
+    "image_path": "data/reference_images/inv/124_Soul_Burn.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "124s",
+    "card_name": "Soul Burn",
+    "image_path": "data/reference_images/inv/124s_Soul_Burn.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "125",
+    "card_name": "Spreading Plague",
+    "image_path": "data/reference_images/inv/125_Spreading_Plague.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "126",
+    "card_name": "Tainted Well",
+    "image_path": "data/reference_images/inv/126_Tainted_Well.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "127",
+    "card_name": "Trench Wurm",
+    "image_path": "data/reference_images/inv/127_Trench_Wurm.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "128",
+    "card_name": "Tsabo s Assassin",
+    "image_path": "data/reference_images/inv/128_Tsabo_s_Assassin.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "129",
+    "card_name": "Tsabo s Decree",
+    "image_path": "data/reference_images/inv/129_Tsabo_s_Decree.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "12",
+    "card_name": "Crusading Knight",
+    "image_path": "data/reference_images/inv/12_Crusading_Knight.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "130",
+    "card_name": "Twilight s Call",
+    "image_path": "data/reference_images/inv/130_Twilight_s_Call.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "131",
+    "card_name": "Urborg Emissary",
+    "image_path": "data/reference_images/inv/131_Urborg_Emissary.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "132",
+    "card_name": "Urborg Phantom",
+    "image_path": "data/reference_images/inv/132_Urborg_Phantom.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "133",
+    "card_name": "Urborg Shambler",
+    "image_path": "data/reference_images/inv/133_Urborg_Shambler.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "134",
+    "card_name": "Urborg Skeleton",
+    "image_path": "data/reference_images/inv/134_Urborg_Skeleton.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "134s",
+    "card_name": "Urborg Skeleton",
+    "image_path": "data/reference_images/inv/134s_Urborg_Skeleton.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "135",
+    "card_name": "Yawgmoth s Agenda",
+    "image_path": "data/reference_images/inv/135_Yawgmoth_s_Agenda.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "136",
+    "card_name": "Ancient Kavu",
+    "image_path": "data/reference_images/inv/136_Ancient_Kavu.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "137",
+    "card_name": "Bend or Break",
+    "image_path": "data/reference_images/inv/137_Bend_or_Break.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "138",
+    "card_name": "Breath of Darigaaz",
+    "image_path": "data/reference_images/inv/138_Breath_of_Darigaaz.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "139",
+    "card_name": "Callous Giant",
+    "image_path": "data/reference_images/inv/139_Callous_Giant.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "13",
+    "card_name": "Death or Glory",
+    "image_path": "data/reference_images/inv/13_Death_or_Glory.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "140",
+    "card_name": "Chaotic Strike",
+    "image_path": "data/reference_images/inv/140_Chaotic_Strike.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "141",
+    "card_name": "Collapsing Borders",
+    "image_path": "data/reference_images/inv/141_Collapsing_Borders.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "142",
+    "card_name": "Crown of Flames",
+    "image_path": "data/reference_images/inv/142_Crown_of_Flames.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "143",
+    "card_name": "Firebrand Ranger",
+    "image_path": "data/reference_images/inv/143_Firebrand_Ranger.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "144",
+    "card_name": "Ghitu Fire",
+    "image_path": "data/reference_images/inv/144_Ghitu_Fire.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "145",
+    "card_name": "Goblin Spy",
+    "image_path": "data/reference_images/inv/145_Goblin_Spy.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "146",
+    "card_name": "Halam Djinn",
+    "image_path": "data/reference_images/inv/146_Halam_Djinn.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "147",
+    "card_name": "Hooded Kavu",
+    "image_path": "data/reference_images/inv/147_Hooded_Kavu.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "148",
+    "card_name": "Kavu Aggressor",
+    "image_path": "data/reference_images/inv/148_Kavu_Aggressor.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "149",
+    "card_name": "Kavu Monarch",
+    "image_path": "data/reference_images/inv/149_Kavu_Monarch.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "14",
+    "card_name": "Dismantling Blow",
+    "image_path": "data/reference_images/inv/14_Dismantling_Blow.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "150",
+    "card_name": "Kavu Runner",
+    "image_path": "data/reference_images/inv/150_Kavu_Runner.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "151",
+    "card_name": "Kavu Scout",
+    "image_path": "data/reference_images/inv/151_Kavu_Scout.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "152",
+    "card_name": "Lightning Dart",
+    "image_path": "data/reference_images/inv/152_Lightning_Dart.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "153",
+    "card_name": "Loafing Giant",
+    "image_path": "data/reference_images/inv/153_Loafing_Giant.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "154",
+    "card_name": "Mages Contest",
+    "image_path": "data/reference_images/inv/154_Mages_Contest.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "155",
+    "card_name": "Maniacal Rage",
+    "image_path": "data/reference_images/inv/155_Maniacal_Rage.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "156",
+    "card_name": "Obliterate",
+    "image_path": "data/reference_images/inv/156_Obliterate.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "157",
+    "card_name": "Overload",
+    "image_path": "data/reference_images/inv/157_Overload.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "158",
+    "card_name": "Pouncing Kavu",
+    "image_path": "data/reference_images/inv/158_Pouncing_Kavu.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "159",
+    "card_name": "Rage Weaver",
+    "image_path": "data/reference_images/inv/159_Rage_Weaver.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "15",
+    "card_name": "Divine Presence",
+    "image_path": "data/reference_images/inv/15_Divine_Presence.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "160",
+    "card_name": "Rogue Kavu",
+    "image_path": "data/reference_images/inv/160_Rogue_Kavu.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "161",
+    "card_name": "Ruby Leech",
+    "image_path": "data/reference_images/inv/161_Ruby_Leech.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "162",
+    "card_name": "Savage Offensive",
+    "image_path": "data/reference_images/inv/162_Savage_Offensive.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "163",
+    "card_name": "Scarred Puma",
+    "image_path": "data/reference_images/inv/163_Scarred_Puma.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "164",
+    "card_name": "Scorching Lava",
+    "image_path": "data/reference_images/inv/164_Scorching_Lava.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "165",
+    "card_name": "Searing Rays",
+    "image_path": "data/reference_images/inv/165_Searing_Rays.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "166",
+    "card_name": "Shivan Emissary",
+    "image_path": "data/reference_images/inv/166_Shivan_Emissary.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "167",
+    "card_name": "Shivan Harvest",
+    "image_path": "data/reference_images/inv/167_Shivan_Harvest.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "168",
+    "card_name": "Skittish Kavu",
+    "image_path": "data/reference_images/inv/168_Skittish_Kavu.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "169",
+    "card_name": "Skizzik",
+    "image_path": "data/reference_images/inv/169_Skizzik.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "16",
+    "card_name": "Fight or Flight",
+    "image_path": "data/reference_images/inv/16_Fight_or_Flight.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "170",
+    "card_name": "Slimy Kavu",
+    "image_path": "data/reference_images/inv/170_Slimy_Kavu.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "171",
+    "card_name": "Stand or Fall",
+    "image_path": "data/reference_images/inv/171_Stand_or_Fall.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "172",
+    "card_name": "Stun",
+    "image_path": "data/reference_images/inv/172_Stun.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "173",
+    "card_name": "Tectonic Instability",
+    "image_path": "data/reference_images/inv/173_Tectonic_Instability.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "174",
+    "card_name": "Thunderscape Apprentice",
+    "image_path": "data/reference_images/inv/174_Thunderscape_Apprentice.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "175",
+    "card_name": "Thunderscape Master",
+    "image_path": "data/reference_images/inv/175_Thunderscape_Master.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "176",
+    "card_name": "Tribal Flames",
+    "image_path": "data/reference_images/inv/176_Tribal_Flames.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "177",
+    "card_name": "Turf Wound",
+    "image_path": "data/reference_images/inv/177_Turf_Wound.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "178",
+    "card_name": "Urza s Rage",
+    "image_path": "data/reference_images/inv/178_Urza_s_Rage.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "179",
+    "card_name": "Viashino Grappler",
+    "image_path": "data/reference_images/inv/179_Viashino_Grappler.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "17",
+    "card_name": "Glimmering Angel",
+    "image_path": "data/reference_images/inv/17_Glimmering_Angel.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "180",
+    "card_name": "Zap",
+    "image_path": "data/reference_images/inv/180_Zap.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "181",
+    "card_name": "Aggressive Urge",
+    "image_path": "data/reference_images/inv/181_Aggressive_Urge.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "182",
+    "card_name": "Bind",
+    "image_path": "data/reference_images/inv/182_Bind.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "183",
+    "card_name": "Blurred Mongoose",
+    "image_path": "data/reference_images/inv/183_Blurred_Mongoose.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "184",
+    "card_name": "Canopy Surge",
+    "image_path": "data/reference_images/inv/184_Canopy_Surge.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "185",
+    "card_name": "Elfhame Sanctuary",
+    "image_path": "data/reference_images/inv/185_Elfhame_Sanctuary.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "186",
+    "card_name": "Elvish Champion",
+    "image_path": "data/reference_images/inv/186_Elvish_Champion.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "187",
+    "card_name": "Explosive Growth",
+    "image_path": "data/reference_images/inv/187_Explosive_Growth.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "188",
+    "card_name": "Fertile Ground",
+    "image_path": "data/reference_images/inv/188_Fertile_Ground.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "189",
+    "card_name": "Harrow",
+    "image_path": "data/reference_images/inv/189_Harrow.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "18",
+    "card_name": "Global Ruin",
+    "image_path": "data/reference_images/inv/18_Global_Ruin.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "190",
+    "card_name": "Jade Leech",
+    "image_path": "data/reference_images/inv/190_Jade_Leech.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "191",
+    "card_name": "Kavu Chameleon",
+    "image_path": "data/reference_images/inv/191_Kavu_Chameleon.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "192",
+    "card_name": "Kavu Climber",
+    "image_path": "data/reference_images/inv/192_Kavu_Climber.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "193",
+    "card_name": "Kavu Lair",
+    "image_path": "data/reference_images/inv/193_Kavu_Lair.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "194",
+    "card_name": "Kavu Titan",
+    "image_path": "data/reference_images/inv/194_Kavu_Titan.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "195",
+    "card_name": "Llanowar Cavalry",
+    "image_path": "data/reference_images/inv/195_Llanowar_Cavalry.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "196",
+    "card_name": "Llanowar Elite",
+    "image_path": "data/reference_images/inv/196_Llanowar_Elite.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "197",
+    "card_name": "Llanowar Vanguard",
+    "image_path": "data/reference_images/inv/197_Llanowar_Vanguard.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "198",
+    "card_name": "Might Weaver",
+    "image_path": "data/reference_images/inv/198_Might_Weaver.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "199",
+    "card_name": "Molimo Maro-Sorcerer",
+    "image_path": "data/reference_images/inv/199_Molimo_Maro-Sorcerer.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "19",
+    "card_name": "Harsh Judgment",
+    "image_path": "data/reference_images/inv/19_Harsh_Judgment.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "1",
+    "card_name": "Alabaster Leech",
+    "image_path": "data/reference_images/inv/1_Alabaster_Leech.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "200",
+    "card_name": "Nomadic Elf",
+    "image_path": "data/reference_images/inv/200_Nomadic_Elf.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "201",
+    "card_name": "Pincer Spider",
+    "image_path": "data/reference_images/inv/201_Pincer_Spider.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "202",
+    "card_name": "Pulse of Llanowar",
+    "image_path": "data/reference_images/inv/202_Pulse_of_Llanowar.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "203",
+    "card_name": "Quirion Elves",
+    "image_path": "data/reference_images/inv/203_Quirion_Elves.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "204",
+    "card_name": "Quirion Sentinel",
+    "image_path": "data/reference_images/inv/204_Quirion_Sentinel.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "205",
+    "card_name": "Quirion Trailblazer",
+    "image_path": "data/reference_images/inv/205_Quirion_Trailblazer.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "206",
+    "card_name": "Restock",
+    "image_path": "data/reference_images/inv/206_Restock.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "207",
+    "card_name": "Rooting Kavu",
+    "image_path": "data/reference_images/inv/207_Rooting_Kavu.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "208",
+    "card_name": "Saproling Infestation",
+    "image_path": "data/reference_images/inv/208_Saproling_Infestation.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "209",
+    "card_name": "Saproling Symbiosis",
+    "image_path": "data/reference_images/inv/209_Saproling_Symbiosis.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "20",
+    "card_name": "Holy Day",
+    "image_path": "data/reference_images/inv/20_Holy_Day.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "210",
+    "card_name": "Scouting Trek",
+    "image_path": "data/reference_images/inv/210_Scouting_Trek.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "211",
+    "card_name": "Serpentine Kavu",
+    "image_path": "data/reference_images/inv/211_Serpentine_Kavu.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "212",
+    "card_name": "Sulam Djinn",
+    "image_path": "data/reference_images/inv/212_Sulam_Djinn.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "213",
+    "card_name": "Tangle",
+    "image_path": "data/reference_images/inv/213_Tangle.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "214",
+    "card_name": "Thicket Elemental",
+    "image_path": "data/reference_images/inv/214_Thicket_Elemental.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "215",
+    "card_name": "Thornscape Apprentice",
+    "image_path": "data/reference_images/inv/215_Thornscape_Apprentice.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "216",
+    "card_name": "Thornscape Master",
+    "image_path": "data/reference_images/inv/216_Thornscape_Master.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "217",
+    "card_name": "Tranquility",
+    "image_path": "data/reference_images/inv/217_Tranquility.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "218",
+    "card_name": "Treefolk Healer",
+    "image_path": "data/reference_images/inv/218_Treefolk_Healer.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "219",
+    "card_name": "Utopia Tree",
+    "image_path": "data/reference_images/inv/219_Utopia_Tree.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "21",
+    "card_name": "Liberate",
+    "image_path": "data/reference_images/inv/21_Liberate.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "220",
+    "card_name": "Verdeloth the Ancient",
+    "image_path": "data/reference_images/inv/220_Verdeloth_the_Ancient.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "221",
+    "card_name": "Verduran Emissary",
+    "image_path": "data/reference_images/inv/221_Verduran_Emissary.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "222",
+    "card_name": "Vigorous Charge",
+    "image_path": "data/reference_images/inv/222_Vigorous_Charge.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "223",
+    "card_name": "Wallop",
+    "image_path": "data/reference_images/inv/223_Wallop.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "224",
+    "card_name": "Wandering Stream",
+    "image_path": "data/reference_images/inv/224_Wandering_Stream.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "225",
+    "card_name": "Whip Silk",
+    "image_path": "data/reference_images/inv/225_Whip_Silk.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "226",
+    "card_name": "Absorb",
+    "image_path": "data/reference_images/inv/226_Absorb.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "227",
+    "card_name": "Aether Rift",
+    "image_path": "data/reference_images/inv/227_Aether_Rift.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "228",
+    "card_name": "Angelic Shield",
+    "image_path": "data/reference_images/inv/228_Angelic_Shield.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "229",
+    "card_name": "Armadillo Cloak",
+    "image_path": "data/reference_images/inv/229_Armadillo_Cloak.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "22",
+    "card_name": "Obsidian Acolyte",
+    "image_path": "data/reference_images/inv/22_Obsidian_Acolyte.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "230",
+    "card_name": "Armored Guardian",
+    "image_path": "data/reference_images/inv/230_Armored_Guardian.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "231",
+    "card_name": "Artifact Mutation",
+    "image_path": "data/reference_images/inv/231_Artifact_Mutation.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "232",
+    "card_name": "Aura Mutation",
+    "image_path": "data/reference_images/inv/232_Aura_Mutation.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "233",
+    "card_name": "Aura Shards",
+    "image_path": "data/reference_images/inv/233_Aura_Shards.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "234",
+    "card_name": "Backlash",
+    "image_path": "data/reference_images/inv/234_Backlash.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "235",
+    "card_name": "Barrin s Spite",
+    "image_path": "data/reference_images/inv/235_Barrin_s_Spite.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "236",
+    "card_name": "Blazing Specter",
+    "image_path": "data/reference_images/inv/236_Blazing_Specter.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "237",
+    "card_name": "Captain Sisay",
+    "image_path": "data/reference_images/inv/237_Captain_Sisay.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "238",
+    "card_name": "Cauldron Dance",
+    "image_path": "data/reference_images/inv/238_Cauldron_Dance.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "239",
+    "card_name": "Charging Troll",
+    "image_path": "data/reference_images/inv/239_Charging_Troll.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "23",
+    "card_name": "Orim s Touch",
+    "image_path": "data/reference_images/inv/23_Orim_s_Touch.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "240",
+    "card_name": "Cinder Shade",
+    "image_path": "data/reference_images/inv/240_Cinder_Shade.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "241",
+    "card_name": "Coalition Victory",
+    "image_path": "data/reference_images/inv/241_Coalition_Victory.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "242",
+    "card_name": "Crosis the Purger",
+    "image_path": "data/reference_images/inv/242_Crosis_the_Purger.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "243",
+    "card_name": "Darigaaz the Igniter",
+    "image_path": "data/reference_images/inv/243_Darigaaz_the_Igniter.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "244",
+    "card_name": "Dromar the Banisher",
+    "image_path": "data/reference_images/inv/244_Dromar_the_Banisher.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "245",
+    "card_name": "Dueling Grounds",
+    "image_path": "data/reference_images/inv/245_Dueling_Grounds.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "246",
+    "card_name": "Fires of Yavimaya",
+    "image_path": "data/reference_images/inv/246_Fires_of_Yavimaya.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "247",
+    "card_name": "Frenzied Tilling",
+    "image_path": "data/reference_images/inv/247_Frenzied_Tilling.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "248",
+    "card_name": "Galina s Knight",
+    "image_path": "data/reference_images/inv/248_Galina_s_Knight.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "249",
+    "card_name": "Hanna Ship s Navigator",
+    "image_path": "data/reference_images/inv/249_Hanna_Ship_s_Navigator.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "24",
+    "card_name": "Pledge of Loyalty",
+    "image_path": "data/reference_images/inv/24_Pledge_of_Loyalty.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "250",
+    "card_name": "Heroes Reunion",
+    "image_path": "data/reference_images/inv/250_Heroes_Reunion.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "251",
+    "card_name": "Horned Cheetah",
+    "image_path": "data/reference_images/inv/251_Horned_Cheetah.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "252",
+    "card_name": "Hunting Kavu",
+    "image_path": "data/reference_images/inv/252_Hunting_Kavu.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "253",
+    "card_name": "Kangee Aerie Keeper",
+    "image_path": "data/reference_images/inv/253_Kangee_Aerie_Keeper.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "254",
+    "card_name": "Llanowar Knight",
+    "image_path": "data/reference_images/inv/254_Llanowar_Knight.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "255",
+    "card_name": "Lobotomy",
+    "image_path": "data/reference_images/inv/255_Lobotomy.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "256",
+    "card_name": "Meteor Storm",
+    "image_path": "data/reference_images/inv/256_Meteor_Storm.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "257",
+    "card_name": "Noble Panther",
+    "image_path": "data/reference_images/inv/257_Noble_Panther.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "258",
+    "card_name": "Ordered Migration",
+    "image_path": "data/reference_images/inv/258_Ordered_Migration.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "259",
+    "card_name": "Overabundance",
+    "image_path": "data/reference_images/inv/259_Overabundance.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "25",
+    "card_name": "Prison Barricade",
+    "image_path": "data/reference_images/inv/25_Prison_Barricade.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "260",
+    "card_name": "Plague Spores",
+    "image_path": "data/reference_images/inv/260_Plague_Spores.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "261",
+    "card_name": "Pyre Zombie",
+    "image_path": "data/reference_images/inv/261_Pyre_Zombie.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "262",
+    "card_name": "Raging Kavu",
+    "image_path": "data/reference_images/inv/262_Raging_Kavu.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "263",
+    "card_name": "Reckless Assault",
+    "image_path": "data/reference_images/inv/263_Reckless_Assault.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "264",
+    "card_name": "Recoil",
+    "image_path": "data/reference_images/inv/264_Recoil.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "265",
+    "card_name": "Reviving Vapors",
+    "image_path": "data/reference_images/inv/265_Reviving_Vapors.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "266",
+    "card_name": "Riptide Crab",
+    "image_path": "data/reference_images/inv/266_Riptide_Crab.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "267",
+    "card_name": "Rith the Awakener",
+    "image_path": "data/reference_images/inv/267_Rith_the_Awakener.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "268",
+    "card_name": "Sabertooth Nishoba",
+    "image_path": "data/reference_images/inv/268_Sabertooth_Nishoba.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "269",
+    "card_name": "Samite Archer",
+    "image_path": "data/reference_images/inv/269_Samite_Archer.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "26",
+    "card_name": "Protective Sphere",
+    "image_path": "data/reference_images/inv/26_Protective_Sphere.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "270",
+    "card_name": "Seer s Vision",
+    "image_path": "data/reference_images/inv/270_Seer_s_Vision.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "271",
+    "card_name": "Shivan Zombie",
+    "image_path": "data/reference_images/inv/271_Shivan_Zombie.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "272",
+    "card_name": "Simoon",
+    "image_path": "data/reference_images/inv/272_Simoon.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "273",
+    "card_name": "Sleeper s Robe",
+    "image_path": "data/reference_images/inv/273_Sleeper_s_Robe.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "274",
+    "card_name": "Slinking Serpent",
+    "image_path": "data/reference_images/inv/274_Slinking_Serpent.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "275",
+    "card_name": "Smoldering Tar",
+    "image_path": "data/reference_images/inv/275_Smoldering_Tar.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "276",
+    "card_name": "Spinal Embrace",
+    "image_path": "data/reference_images/inv/276_Spinal_Embrace.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "277",
+    "card_name": "Stalking Assassin",
+    "image_path": "data/reference_images/inv/277_Stalking_Assassin.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "278",
+    "card_name": "Sterling Grove",
+    "image_path": "data/reference_images/inv/278_Sterling_Grove.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "279",
+    "card_name": "Teferi s Moat",
+    "image_path": "data/reference_images/inv/279_Teferi_s_Moat.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "27",
+    "card_name": "Pure Reflection",
+    "image_path": "data/reference_images/inv/27_Pure_Reflection.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "280",
+    "card_name": "Treva the Renewer",
+    "image_path": "data/reference_images/inv/280_Treva_the_Renewer.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "281",
+    "card_name": "Tsabo Tavoc",
+    "image_path": "data/reference_images/inv/281_Tsabo_Tavoc.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "282",
+    "card_name": "Undermine",
+    "image_path": "data/reference_images/inv/282_Undermine.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "283",
+    "card_name": "Urborg Drake",
+    "image_path": "data/reference_images/inv/283_Urborg_Drake.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "284",
+    "card_name": "Vicious Kavu",
+    "image_path": "data/reference_images/inv/284_Vicious_Kavu.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "285",
+    "card_name": "Vile Consumption",
+    "image_path": "data/reference_images/inv/285_Vile_Consumption.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "286",
+    "card_name": "Vodalian Zombie",
+    "image_path": "data/reference_images/inv/286_Vodalian_Zombie.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "287",
+    "card_name": "Void",
+    "image_path": "data/reference_images/inv/287_Void.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "288",
+    "card_name": "Voracious Cobra",
+    "image_path": "data/reference_images/inv/288_Voracious_Cobra.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "289",
+    "card_name": "Wings of Hope",
+    "image_path": "data/reference_images/inv/289_Wings_of_Hope.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "28",
+    "card_name": "Rampant Elephant",
+    "image_path": "data/reference_images/inv/28_Rampant_Elephant.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "290",
+    "card_name": "Yavimaya Barbarian",
+    "image_path": "data/reference_images/inv/290_Yavimaya_Barbarian.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "291",
+    "card_name": "Yavimaya Kavu",
+    "image_path": "data/reference_images/inv/291_Yavimaya_Kavu.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "292",
+    "card_name": "Stand Deliver",
+    "image_path": "data/reference_images/inv/292_Stand_Deliver.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "293",
+    "card_name": "Spite Malice",
+    "image_path": "data/reference_images/inv/293_Spite_Malice.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "294",
+    "card_name": "Pain Suffering",
+    "image_path": "data/reference_images/inv/294_Pain_Suffering.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "295",
+    "card_name": "Assault Battery",
+    "image_path": "data/reference_images/inv/295_Assault_Battery.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "296",
+    "card_name": "Wax Wane",
+    "image_path": "data/reference_images/inv/296_Wax_Wane.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "297",
+    "card_name": "Alloy Golem",
+    "image_path": "data/reference_images/inv/297_Alloy_Golem.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "298",
+    "card_name": "Bloodstone Cameo",
+    "image_path": "data/reference_images/inv/298_Bloodstone_Cameo.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "299",
+    "card_name": "Chromatic Sphere",
+    "image_path": "data/reference_images/inv/299_Chromatic_Sphere.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "29",
+    "card_name": "Razorfoot Griffin",
+    "image_path": "data/reference_images/inv/29_Razorfoot_Griffin.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "2",
+    "card_name": "Angel of Mercy",
+    "image_path": "data/reference_images/inv/2_Angel_of_Mercy.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "300",
+    "card_name": "Crosis s Attendant",
+    "image_path": "data/reference_images/inv/300_Crosis_s_Attendant.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "301",
+    "card_name": "Darigaaz s Attendant",
+    "image_path": "data/reference_images/inv/301_Darigaaz_s_Attendant.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "302",
+    "card_name": "Drake-Skull Cameo",
+    "image_path": "data/reference_images/inv/302_Drake-Skull_Cameo.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "303",
+    "card_name": "Dromar s Attendant",
+    "image_path": "data/reference_images/inv/303_Dromar_s_Attendant.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "304",
+    "card_name": "Juntu Stakes",
+    "image_path": "data/reference_images/inv/304_Juntu_Stakes.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "305",
+    "card_name": "Lotus Guardian",
+    "image_path": "data/reference_images/inv/305_Lotus_Guardian.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "306",
+    "card_name": "Phyrexian Altar",
+    "image_path": "data/reference_images/inv/306_Phyrexian_Altar.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "307",
+    "card_name": "Phyrexian Lens",
+    "image_path": "data/reference_images/inv/307_Phyrexian_Lens.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "308",
+    "card_name": "Planar Portal",
+    "image_path": "data/reference_images/inv/308_Planar_Portal.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "309",
+    "card_name": "Power Armor",
+    "image_path": "data/reference_images/inv/309_Power_Armor.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "30",
+    "card_name": "Restrain",
+    "image_path": "data/reference_images/inv/30_Restrain.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "310",
+    "card_name": "Rith s Attendant",
+    "image_path": "data/reference_images/inv/310_Rith_s_Attendant.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "311",
+    "card_name": "Seashell Cameo",
+    "image_path": "data/reference_images/inv/311_Seashell_Cameo.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "312",
+    "card_name": "Sparring Golem",
+    "image_path": "data/reference_images/inv/312_Sparring_Golem.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "313",
+    "card_name": "Tek",
+    "image_path": "data/reference_images/inv/313_Tek.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "314",
+    "card_name": "Tigereye Cameo",
+    "image_path": "data/reference_images/inv/314_Tigereye_Cameo.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "315",
+    "card_name": "Treva s Attendant",
+    "image_path": "data/reference_images/inv/315_Treva_s_Attendant.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "316",
+    "card_name": "Troll-Horn Cameo",
+    "image_path": "data/reference_images/inv/316_Troll-Horn_Cameo.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "317",
+    "card_name": "Tsabo s Web",
+    "image_path": "data/reference_images/inv/317_Tsabo_s_Web.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "318",
+    "card_name": "Urza s Filter",
+    "image_path": "data/reference_images/inv/318_Urza_s_Filter.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "319",
+    "card_name": "Ancient Spring",
+    "image_path": "data/reference_images/inv/319_Ancient_Spring.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "31",
+    "card_name": "Reviving Dose",
+    "image_path": "data/reference_images/inv/31_Reviving_Dose.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "320",
+    "card_name": "Archaeological Dig",
+    "image_path": "data/reference_images/inv/320_Archaeological_Dig.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "321",
+    "card_name": "Coastal Tower",
+    "image_path": "data/reference_images/inv/321_Coastal_Tower.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "322",
+    "card_name": "Elfhame Palace",
+    "image_path": "data/reference_images/inv/322_Elfhame_Palace.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "323",
+    "card_name": "Geothermal Crevice",
+    "image_path": "data/reference_images/inv/323_Geothermal_Crevice.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "324",
+    "card_name": "Irrigation Ditch",
+    "image_path": "data/reference_images/inv/324_Irrigation_Ditch.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "325",
+    "card_name": "Keldon Necropolis",
+    "image_path": "data/reference_images/inv/325_Keldon_Necropolis.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "326",
+    "card_name": "Salt Marsh",
+    "image_path": "data/reference_images/inv/326_Salt_Marsh.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "327",
+    "card_name": "Shivan Oasis",
+    "image_path": "data/reference_images/inv/327_Shivan_Oasis.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "328",
+    "card_name": "Sulfur Vent",
+    "image_path": "data/reference_images/inv/328_Sulfur_Vent.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "329",
+    "card_name": "Tinder Farm",
+    "image_path": "data/reference_images/inv/329_Tinder_Farm.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "32",
+    "card_name": "Rewards of Diversity",
+    "image_path": "data/reference_images/inv/32_Rewards_of_Diversity.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "330",
+    "card_name": "Urborg Volcano",
+    "image_path": "data/reference_images/inv/330_Urborg_Volcano.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "331",
+    "card_name": "Plains",
+    "image_path": "data/reference_images/inv/331_Plains.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "332",
+    "card_name": "Plains",
+    "image_path": "data/reference_images/inv/332_Plains.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "333",
+    "card_name": "Plains",
+    "image_path": "data/reference_images/inv/333_Plains.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "334",
+    "card_name": "Plains",
+    "image_path": "data/reference_images/inv/334_Plains.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "335",
+    "card_name": "Island",
+    "image_path": "data/reference_images/inv/335_Island.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "336",
+    "card_name": "Island",
+    "image_path": "data/reference_images/inv/336_Island.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "337",
+    "card_name": "Island",
+    "image_path": "data/reference_images/inv/337_Island.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "338",
+    "card_name": "Island",
+    "image_path": "data/reference_images/inv/338_Island.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "339",
+    "card_name": "Swamp",
+    "image_path": "data/reference_images/inv/339_Swamp.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "33",
+    "card_name": "Reya Dawnbringer",
+    "image_path": "data/reference_images/inv/33_Reya_Dawnbringer.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "340",
+    "card_name": "Swamp",
+    "image_path": "data/reference_images/inv/340_Swamp.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "341",
+    "card_name": "Swamp",
+    "image_path": "data/reference_images/inv/341_Swamp.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "342",
+    "card_name": "Swamp",
+    "image_path": "data/reference_images/inv/342_Swamp.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "343",
+    "card_name": "Mountain",
+    "image_path": "data/reference_images/inv/343_Mountain.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "344",
+    "card_name": "Mountain",
+    "image_path": "data/reference_images/inv/344_Mountain.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "345",
+    "card_name": "Mountain",
+    "image_path": "data/reference_images/inv/345_Mountain.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "346",
+    "card_name": "Mountain",
+    "image_path": "data/reference_images/inv/346_Mountain.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "347",
+    "card_name": "Forest",
+    "image_path": "data/reference_images/inv/347_Forest.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "348",
+    "card_name": "Forest",
+    "image_path": "data/reference_images/inv/348_Forest.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "349",
+    "card_name": "Forest",
+    "image_path": "data/reference_images/inv/349_Forest.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "34",
+    "card_name": "Rout",
+    "image_path": "data/reference_images/inv/34_Rout.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "350",
+    "card_name": "Forest",
+    "image_path": "data/reference_images/inv/350_Forest.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "35",
+    "card_name": "Ruham Djinn",
+    "image_path": "data/reference_images/inv/35_Ruham_Djinn.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "36",
+    "card_name": "Samite Ministration",
+    "image_path": "data/reference_images/inv/36_Samite_Ministration.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "37",
+    "card_name": "Shackles",
+    "image_path": "data/reference_images/inv/37_Shackles.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "38",
+    "card_name": "Spirit of Resistance",
+    "image_path": "data/reference_images/inv/38_Spirit_of_Resistance.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "39",
+    "card_name": "Spirit Weaver",
+    "image_path": "data/reference_images/inv/39_Spirit_Weaver.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "3",
+    "card_name": "Ardent Soldier",
+    "image_path": "data/reference_images/inv/3_Ardent_Soldier.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "40",
+    "card_name": "Strength of Unity",
+    "image_path": "data/reference_images/inv/40_Strength_of_Unity.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "41",
+    "card_name": "Sunscape Apprentice",
+    "image_path": "data/reference_images/inv/41_Sunscape_Apprentice.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "42",
+    "card_name": "Sunscape Master",
+    "image_path": "data/reference_images/inv/42_Sunscape_Master.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "43",
+    "card_name": "Teferi s Care",
+    "image_path": "data/reference_images/inv/43_Teferi_s_Care.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "44",
+    "card_name": "Wayfaring Giant",
+    "image_path": "data/reference_images/inv/44_Wayfaring_Giant.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "45",
+    "card_name": "Winnow",
+    "image_path": "data/reference_images/inv/45_Winnow.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "46",
+    "card_name": "Barrin s Unmaking",
+    "image_path": "data/reference_images/inv/46_Barrin_s_Unmaking.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "47",
+    "card_name": "Blind Seer",
+    "image_path": "data/reference_images/inv/47_Blind_Seer.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "48",
+    "card_name": "Breaking Wave",
+    "image_path": "data/reference_images/inv/48_Breaking_Wave.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "49",
+    "card_name": "Collective Restraint",
+    "image_path": "data/reference_images/inv/49_Collective_Restraint.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "4",
+    "card_name": "Atalya Samite Master",
+    "image_path": "data/reference_images/inv/4_Atalya_Samite_Master.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "50",
+    "card_name": "Crystal Spray",
+    "image_path": "data/reference_images/inv/50_Crystal_Spray.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "51",
+    "card_name": "Disrupt",
+    "image_path": "data/reference_images/inv/51_Disrupt.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "52",
+    "card_name": "Distorting Wake",
+    "image_path": "data/reference_images/inv/52_Distorting_Wake.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "53",
+    "card_name": "Dream Thrush",
+    "image_path": "data/reference_images/inv/53_Dream_Thrush.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "54",
+    "card_name": "Empress Galina",
+    "image_path": "data/reference_images/inv/54_Empress_Galina.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "55",
+    "card_name": "Essence Leak",
+    "image_path": "data/reference_images/inv/55_Essence_Leak.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "56",
+    "card_name": "Exclude",
+    "image_path": "data/reference_images/inv/56_Exclude.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "57",
+    "card_name": "Fact or Fiction",
+    "image_path": "data/reference_images/inv/57_Fact_or_Fiction.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "58",
+    "card_name": "Faerie Squadron",
+    "image_path": "data/reference_images/inv/58_Faerie_Squadron.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "59",
+    "card_name": "Mana Maze",
+    "image_path": "data/reference_images/inv/59_Mana_Maze.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "5",
+    "card_name": "Benalish Emissary",
+    "image_path": "data/reference_images/inv/5_Benalish_Emissary.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "60",
+    "card_name": "Manipulate Fate",
+    "image_path": "data/reference_images/inv/60_Manipulate_Fate.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "61",
+    "card_name": "Metathran Aerostat",
+    "image_path": "data/reference_images/inv/61_Metathran_Aerostat.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "62",
+    "card_name": "Metathran Transport",
+    "image_path": "data/reference_images/inv/62_Metathran_Transport.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "63",
+    "card_name": "Metathran Zombie",
+    "image_path": "data/reference_images/inv/63_Metathran_Zombie.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "64",
+    "card_name": "Opt",
+    "image_path": "data/reference_images/inv/64_Opt.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "65",
+    "card_name": "Phantasmal Terrain",
+    "image_path": "data/reference_images/inv/65_Phantasmal_Terrain.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "66",
+    "card_name": "Probe",
+    "image_path": "data/reference_images/inv/66_Probe.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "67",
+    "card_name": "Prohibit",
+    "image_path": "data/reference_images/inv/67_Prohibit.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "68",
+    "card_name": "Psychic Battle",
+    "image_path": "data/reference_images/inv/68_Psychic_Battle.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "69",
+    "card_name": "Rainbow Crow",
+    "image_path": "data/reference_images/inv/69_Rainbow_Crow.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "6",
+    "card_name": "Benalish Heralds",
+    "image_path": "data/reference_images/inv/6_Benalish_Heralds.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "70",
+    "card_name": "Repulse",
+    "image_path": "data/reference_images/inv/70_Repulse.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "71",
+    "card_name": "Sapphire Leech",
+    "image_path": "data/reference_images/inv/71_Sapphire_Leech.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "72",
+    "card_name": "Shimmering Wings",
+    "image_path": "data/reference_images/inv/72_Shimmering_Wings.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "73",
+    "card_name": "Shoreline Raider",
+    "image_path": "data/reference_images/inv/73_Shoreline_Raider.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "74",
+    "card_name": "Sky Weaver",
+    "image_path": "data/reference_images/inv/74_Sky_Weaver.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "75",
+    "card_name": "Stormscape Apprentice",
+    "image_path": "data/reference_images/inv/75_Stormscape_Apprentice.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "76",
+    "card_name": "Stormscape Master",
+    "image_path": "data/reference_images/inv/76_Stormscape_Master.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "77",
+    "card_name": "Sway of Illusion",
+    "image_path": "data/reference_images/inv/77_Sway_of_Illusion.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "78",
+    "card_name": "Teferi s Response",
+    "image_path": "data/reference_images/inv/78_Teferi_s_Response.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "79",
+    "card_name": "Temporal Distortion",
+    "image_path": "data/reference_images/inv/79_Temporal_Distortion.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "7",
+    "card_name": "Benalish Lancer",
+    "image_path": "data/reference_images/inv/7_Benalish_Lancer.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "80",
+    "card_name": "Tidal Visionary",
+    "image_path": "data/reference_images/inv/80_Tidal_Visionary.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "81",
+    "card_name": "Tolarian Emissary",
+    "image_path": "data/reference_images/inv/81_Tolarian_Emissary.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "82",
+    "card_name": "Tower Drake",
+    "image_path": "data/reference_images/inv/82_Tower_Drake.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "83",
+    "card_name": "Traveler s Cloak",
+    "image_path": "data/reference_images/inv/83_Traveler_s_Cloak.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "84",
+    "card_name": "Vodalian Hypnotist",
+    "image_path": "data/reference_images/inv/84_Vodalian_Hypnotist.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "85",
+    "card_name": "Vodalian Merchant",
+    "image_path": "data/reference_images/inv/85_Vodalian_Merchant.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "86",
+    "card_name": "Vodalian Serpent",
+    "image_path": "data/reference_images/inv/86_Vodalian_Serpent.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "87",
+    "card_name": "Wash Out",
+    "image_path": "data/reference_images/inv/87_Wash_Out.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "88",
+    "card_name": "Well-Laid Plans",
+    "image_path": "data/reference_images/inv/88_Well-Laid_Plans.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "89",
+    "card_name": "Worldly Counsel",
+    "image_path": "data/reference_images/inv/89_Worldly_Counsel.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "8",
+    "card_name": "Benalish Trapper",
+    "image_path": "data/reference_images/inv/8_Benalish_Trapper.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "90",
+    "card_name": "Zanam Djinn",
+    "image_path": "data/reference_images/inv/90_Zanam_Djinn.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "91",
+    "card_name": "Addle",
+    "image_path": "data/reference_images/inv/91_Addle.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "92",
+    "card_name": "Agonizing Demise",
+    "image_path": "data/reference_images/inv/92_Agonizing_Demise.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "93",
+    "card_name": "Andradite Leech",
+    "image_path": "data/reference_images/inv/93_Andradite_Leech.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "94",
+    "card_name": "Annihilate",
+    "image_path": "data/reference_images/inv/94_Annihilate.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "95",
+    "card_name": "Bog Initiate",
+    "image_path": "data/reference_images/inv/95_Bog_Initiate.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "96",
+    "card_name": "Cremate",
+    "image_path": "data/reference_images/inv/96_Cremate.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "97",
+    "card_name": "Crypt Angel",
+    "image_path": "data/reference_images/inv/97_Crypt_Angel.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "98",
+    "card_name": "Cursed Flesh",
+    "image_path": "data/reference_images/inv/98_Cursed_Flesh.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "99",
+    "card_name": "Defiling Tears",
+    "image_path": "data/reference_images/inv/99_Defiling_Tears.jpg"
+  },
+  {
+    "set_code": "inv",
+    "collector_number": "9",
+    "card_name": "Blinding Light",
+    "image_path": "data/reference_images/inv/9_Blinding_Light.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "100",
+    "card_name": "Darigaaz s Charm",
+    "image_path": "data/reference_images/pls/100_Darigaaz_s_Charm.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "101",
+    "card_name": "Daring Leap",
+    "image_path": "data/reference_images/pls/101_Daring_Leap.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "102",
+    "card_name": "Destructive Flow",
+    "image_path": "data/reference_images/pls/102_Destructive_Flow.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "103",
+    "card_name": "Doomsday Specter",
+    "image_path": "data/reference_images/pls/103_Doomsday_Specter.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "104",
+    "card_name": "Dralnu s Crusade",
+    "image_path": "data/reference_images/pls/104_Dralnu_s_Crusade.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "105",
+    "card_name": "Dromar s Charm",
+    "image_path": "data/reference_images/pls/105_Dromar_s_Charm.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "106",
+    "card_name": "Eladamri s Call",
+    "image_path": "data/reference_images/pls/106_Eladamri_s_Call.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "107",
+    "card_name": "Ertai the Corrupted",
+    "image_path": "data/reference_images/pls/107_Ertai_the_Corrupted.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "108",
+    "card_name": "Fleetfoot Panther",
+    "image_path": "data/reference_images/pls/108_Fleetfoot_Panther.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "109",
+    "card_name": "Gerrard s Command",
+    "image_path": "data/reference_images/pls/109_Gerrard_s_Command.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "10",
+    "card_name": "March of Souls",
+    "image_path": "data/reference_images/pls/10_March_of_Souls.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "110",
+    "card_name": "Horned Kavu",
+    "image_path": "data/reference_images/pls/110_Horned_Kavu.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "111",
+    "card_name": "Hull Breach",
+    "image_path": "data/reference_images/pls/111_Hull_Breach.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "112",
+    "card_name": "Keldon Twilight",
+    "image_path": "data/reference_images/pls/112_Keldon_Twilight.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "113",
+    "card_name": "Lava Zombie",
+    "image_path": "data/reference_images/pls/113_Lava_Zombie.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "114",
+    "card_name": "Malicious Advice",
+    "image_path": "data/reference_images/pls/114_Malicious_Advice.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "115",
+    "card_name": "Marsh Crocodile",
+    "image_path": "data/reference_images/pls/115_Marsh_Crocodile.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "116",
+    "card_name": "Meddling Mage",
+    "image_path": "data/reference_images/pls/116_Meddling_Mage.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "117",
+    "card_name": "Natural Emergence",
+    "image_path": "data/reference_images/pls/117_Natural_Emergence.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "118",
+    "card_name": "Phyrexian Tyranny",
+    "image_path": "data/reference_images/pls/118_Phyrexian_Tyranny.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "119",
+    "card_name": "Questing Phelddagrif",
+    "image_path": "data/reference_images/pls/119_Questing_Phelddagrif.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "11",
+    "card_name": "Orim s Chant",
+    "image_path": "data/reference_images/pls/11_Orim_s_Chant.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "120",
+    "card_name": "Radiant Kavu",
+    "image_path": "data/reference_images/pls/120_Radiant_Kavu.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "121",
+    "card_name": "Razing Snidd",
+    "image_path": "data/reference_images/pls/121_Razing_Snidd.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "122",
+    "card_name": "Rith s Charm",
+    "image_path": "data/reference_images/pls/122_Rith_s_Charm.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "123",
+    "card_name": "Sawtooth Loon",
+    "image_path": "data/reference_images/pls/123_Sawtooth_Loon.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "124",
+    "card_name": "Shivan Wurm",
+    "image_path": "data/reference_images/pls/124_Shivan_Wurm.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "125",
+    "card_name": "Silver Drake",
+    "image_path": "data/reference_images/pls/125_Silver_Drake.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "126",
+    "card_name": "Sparkcaster",
+    "image_path": "data/reference_images/pls/126_Sparkcaster.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "127",
+    "card_name": "Steel Leaf Paladin",
+    "image_path": "data/reference_images/pls/127_Steel_Leaf_Paladin.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "128",
+    "card_name": "Terminate",
+    "image_path": "data/reference_images/pls/128_Terminate.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "129",
+    "card_name": "Treva s Charm",
+    "image_path": "data/reference_images/pls/129_Treva_s_Charm.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "12",
+    "card_name": "Planeswalker s Mirth",
+    "image_path": "data/reference_images/pls/12_Planeswalker_s_Mirth.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "130",
+    "card_name": "Urza s Guilt",
+    "image_path": "data/reference_images/pls/130_Urza_s_Guilt.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "131",
+    "card_name": "Draco",
+    "image_path": "data/reference_images/pls/131_Draco.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "132",
+    "card_name": "Mana Cylix",
+    "image_path": "data/reference_images/pls/132_Mana_Cylix.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "133",
+    "card_name": "Skyship Weatherlight",
+    "image_path": "data/reference_images/pls/133_Skyship_Weatherlight.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "134",
+    "card_name": "Star Compass",
+    "image_path": "data/reference_images/pls/134_Star_Compass.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "135",
+    "card_name": "Stratadon",
+    "image_path": "data/reference_images/pls/135_Stratadon.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "136",
+    "card_name": "Crosis s Catacombs",
+    "image_path": "data/reference_images/pls/136_Crosis_s_Catacombs.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "137",
+    "card_name": "Darigaaz s Caldera",
+    "image_path": "data/reference_images/pls/137_Darigaaz_s_Caldera.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "138",
+    "card_name": "Dromar s Cavern",
+    "image_path": "data/reference_images/pls/138_Dromar_s_Cavern.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "139",
+    "card_name": "Forsaken City",
+    "image_path": "data/reference_images/pls/139_Forsaken_City.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "13",
+    "card_name": "Pollen Remedy",
+    "image_path": "data/reference_images/pls/13_Pollen_Remedy.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "140",
+    "card_name": "Meteor Crater",
+    "image_path": "data/reference_images/pls/140_Meteor_Crater.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "141",
+    "card_name": "Rith s Grove",
+    "image_path": "data/reference_images/pls/141_Rith_s_Grove.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "142",
+    "card_name": "Terminal Moraine",
+    "image_path": "data/reference_images/pls/142_Terminal_Moraine.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "143",
+    "card_name": "Treva s Ruins",
+    "image_path": "data/reference_images/pls/143_Treva_s_Ruins.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "14",
+    "card_name": "Samite Elder",
+    "image_path": "data/reference_images/pls/14_Samite_Elder.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "15",
+    "card_name": "Samite Pilgrim",
+    "image_path": "data/reference_images/pls/15_Samite_Pilgrim.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "16",
+    "card_name": "Sunscape Battlemage",
+    "image_path": "data/reference_images/pls/16_Sunscape_Battlemage.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "17",
+    "card_name": "Sunscape Familiar",
+    "image_path": "data/reference_images/pls/17_Sunscape_Familiar.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "18",
+    "card_name": "Surprise Deployment",
+    "image_path": "data/reference_images/pls/18_Surprise_Deployment.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "19",
+    "card_name": "Voice of All",
+    "image_path": "data/reference_images/pls/19_Voice_of_All.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "1",
+    "card_name": "Aura Blast",
+    "image_path": "data/reference_images/pls/1_Aura_Blast.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "20",
+    "card_name": "Allied Strategies",
+    "image_path": "data/reference_images/pls/20_Allied_Strategies.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "21",
+    "card_name": "Arctic Merfolk",
+    "image_path": "data/reference_images/pls/21_Arctic_Merfolk.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "22",
+    "card_name": "Confound",
+    "image_path": "data/reference_images/pls/22_Confound.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "23",
+    "card_name": "Dralnu s Pet",
+    "image_path": "data/reference_images/pls/23_Dralnu_s_Pet.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "24",
+    "card_name": "Ertai s Trickery",
+    "image_path": "data/reference_images/pls/24_Ertai_s_Trickery.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "25",
+    "card_name": "Escape Routes",
+    "image_path": "data/reference_images/pls/25_Escape_Routes.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "26",
+    "card_name": "Gainsay",
+    "image_path": "data/reference_images/pls/26_Gainsay.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "27",
+    "card_name": "Hunting Drake",
+    "image_path": "data/reference_images/pls/27_Hunting_Drake.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "28",
+    "card_name": "Planar Overlay",
+    "image_path": "data/reference_images/pls/28_Planar_Overlay.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "29",
+    "card_name": "Planeswalker s Mischief",
+    "image_path": "data/reference_images/pls/29_Planeswalker_s_Mischief.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "2",
+    "card_name": "Aurora Griffin",
+    "image_path": "data/reference_images/pls/2_Aurora_Griffin.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "30",
+    "card_name": "Rushing River",
+    "image_path": "data/reference_images/pls/30_Rushing_River.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "31",
+    "card_name": "Sea Snidd",
+    "image_path": "data/reference_images/pls/31_Sea_Snidd.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "32",
+    "card_name": "Shifting Sky",
+    "image_path": "data/reference_images/pls/32_Shifting_Sky.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "33",
+    "card_name": "Sisay s Ingenuity",
+    "image_path": "data/reference_images/pls/33_Sisay_s_Ingenuity.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "34",
+    "card_name": "Sleeping Potion",
+    "image_path": "data/reference_images/pls/34_Sleeping_Potion.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "35",
+    "card_name": "Stormscape Battlemage",
+    "image_path": "data/reference_images/pls/35_Stormscape_Battlemage.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "36",
+    "card_name": "Stormscape Familiar",
+    "image_path": "data/reference_images/pls/36_Stormscape_Familiar.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "37",
+    "card_name": "Sunken Hope",
+    "image_path": "data/reference_images/pls/37_Sunken_Hope.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "38",
+    "card_name": "Waterspout Elemental",
+    "image_path": "data/reference_images/pls/38_Waterspout_Elemental.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "39",
+    "card_name": "Bog Down",
+    "image_path": "data/reference_images/pls/39_Bog_Down.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "3",
+    "card_name": "Disciple of Kangee",
+    "image_path": "data/reference_images/pls/3_Disciple_of_Kangee.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "40",
+    "card_name": "Dark Suspicions",
+    "image_path": "data/reference_images/pls/40_Dark_Suspicions.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "41",
+    "card_name": "Death Bomb",
+    "image_path": "data/reference_images/pls/41_Death_Bomb.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "42",
+    "card_name": "Diabolic Intent",
+    "image_path": "data/reference_images/pls/42_Diabolic_Intent.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "43",
+    "card_name": "Exotic Disease",
+    "image_path": "data/reference_images/pls/43_Exotic_Disease.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "44",
+    "card_name": "Lord of the Undead",
+    "image_path": "data/reference_images/pls/44_Lord_of_the_Undead.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "45",
+    "card_name": "Maggot Carrier",
+    "image_path": "data/reference_images/pls/45_Maggot_Carrier.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "46",
+    "card_name": "Morgue Toad",
+    "image_path": "data/reference_images/pls/46_Morgue_Toad.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "47",
+    "card_name": "Nightscape Battlemage",
+    "image_path": "data/reference_images/pls/47_Nightscape_Battlemage.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "48",
+    "card_name": "Nightscape Familiar",
+    "image_path": "data/reference_images/pls/48_Nightscape_Familiar.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "49",
+    "card_name": "Noxious Vapors",
+    "image_path": "data/reference_images/pls/49_Noxious_Vapors.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "4",
+    "card_name": "Dominaria s Judgment",
+    "image_path": "data/reference_images/pls/4_Dominaria_s_Judgment.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "50",
+    "card_name": "Phyrexian Bloodstock",
+    "image_path": "data/reference_images/pls/50_Phyrexian_Bloodstock.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "51",
+    "card_name": "Phyrexian Scuta",
+    "image_path": "data/reference_images/pls/51_Phyrexian_Scuta.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "52",
+    "card_name": "Planeswalker s Scorn",
+    "image_path": "data/reference_images/pls/52_Planeswalker_s_Scorn.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "53",
+    "card_name": "Shriek of Dread",
+    "image_path": "data/reference_images/pls/53_Shriek_of_Dread.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "54",
+    "card_name": "Sinister Strength",
+    "image_path": "data/reference_images/pls/54_Sinister_Strength.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "55",
+    "card_name": "Slay",
+    "image_path": "data/reference_images/pls/55_Slay.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "56",
+    "card_name": "Volcano Imp",
+    "image_path": "data/reference_images/pls/56_Volcano_Imp.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "57",
+    "card_name": "Warped Devotion",
+    "image_path": "data/reference_images/pls/57_Warped_Devotion.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "58",
+    "card_name": "Caldera Kavu",
+    "image_path": "data/reference_images/pls/58_Caldera_Kavu.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "59",
+    "card_name": "Deadapult",
+    "image_path": "data/reference_images/pls/59_Deadapult.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "5",
+    "card_name": "Guard Dogs",
+    "image_path": "data/reference_images/pls/5_Guard_Dogs.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "60",
+    "card_name": "Flametongue Kavu",
+    "image_path": "data/reference_images/pls/60_Flametongue_Kavu.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "61",
+    "card_name": "Goblin Game",
+    "image_path": "data/reference_images/pls/61_Goblin_Game.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "62",
+    "card_name": "Implode",
+    "image_path": "data/reference_images/pls/62_Implode.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "63",
+    "card_name": "Insolence",
+    "image_path": "data/reference_images/pls/63_Insolence.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "64",
+    "card_name": "Kavu Recluse",
+    "image_path": "data/reference_images/pls/64_Kavu_Recluse.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "65",
+    "card_name": "Keldon Mantle",
+    "image_path": "data/reference_images/pls/65_Keldon_Mantle.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "66",
+    "card_name": "Magma Burst",
+    "image_path": "data/reference_images/pls/66_Magma_Burst.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "67",
+    "card_name": "Mire Kavu",
+    "image_path": "data/reference_images/pls/67_Mire_Kavu.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "68",
+    "card_name": "Mogg Jailer",
+    "image_path": "data/reference_images/pls/68_Mogg_Jailer.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "69",
+    "card_name": "Mogg Sentry",
+    "image_path": "data/reference_images/pls/69_Mogg_Sentry.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "6",
+    "card_name": "Heroic Defiance",
+    "image_path": "data/reference_images/pls/6_Heroic_Defiance.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "70",
+    "card_name": "Planeswalker s Fury",
+    "image_path": "data/reference_images/pls/70_Planeswalker_s_Fury.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "71",
+    "card_name": "Singe",
+    "image_path": "data/reference_images/pls/71_Singe.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "72",
+    "card_name": "Slingshot Goblin",
+    "image_path": "data/reference_images/pls/72_Slingshot_Goblin.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "73",
+    "card_name": "Strafe",
+    "image_path": "data/reference_images/pls/73_Strafe.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "74",
+    "card_name": "Tahngarth Talruum Hero",
+    "image_path": "data/reference_images/pls/74_Tahngarth_Talruum_Hero.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "75",
+    "card_name": "Thunderscape Battlemage",
+    "image_path": "data/reference_images/pls/75_Thunderscape_Battlemage.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "76",
+    "card_name": "Thunderscape Familiar",
+    "image_path": "data/reference_images/pls/76_Thunderscape_Familiar.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "77",
+    "card_name": "Alpha Kavu",
+    "image_path": "data/reference_images/pls/77_Alpha_Kavu.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "78",
+    "card_name": "Amphibious Kavu",
+    "image_path": "data/reference_images/pls/78_Amphibious_Kavu.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "79",
+    "card_name": "Falling Timber",
+    "image_path": "data/reference_images/pls/79_Falling_Timber.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "7",
+    "card_name": "Hobble",
+    "image_path": "data/reference_images/pls/7_Hobble.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "80",
+    "card_name": "Gaea s Herald",
+    "image_path": "data/reference_images/pls/80_Gaea_s_Herald.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "81",
+    "card_name": "Gaea s Might",
+    "image_path": "data/reference_images/pls/81_Gaea_s_Might.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "82",
+    "card_name": "Magnigoth Treefolk",
+    "image_path": "data/reference_images/pls/82_Magnigoth_Treefolk.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "83",
+    "card_name": "Mirrorwood Treefolk",
+    "image_path": "data/reference_images/pls/83_Mirrorwood_Treefolk.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "84",
+    "card_name": "Multani s Harmony",
+    "image_path": "data/reference_images/pls/84_Multani_s_Harmony.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "85",
+    "card_name": "Nemata Grove Guardian",
+    "image_path": "data/reference_images/pls/85_Nemata_Grove_Guardian.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "86",
+    "card_name": "Planeswalker s Favor",
+    "image_path": "data/reference_images/pls/86_Planeswalker_s_Favor.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "87",
+    "card_name": "Primal Growth",
+    "image_path": "data/reference_images/pls/87_Primal_Growth.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "88",
+    "card_name": "Pygmy Kavu",
+    "image_path": "data/reference_images/pls/88_Pygmy_Kavu.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "89",
+    "card_name": "Quirion Dryad",
+    "image_path": "data/reference_images/pls/89_Quirion_Dryad.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "8",
+    "card_name": "Honorable Scout",
+    "image_path": "data/reference_images/pls/8_Honorable_Scout.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "90",
+    "card_name": "Quirion Explorer",
+    "image_path": "data/reference_images/pls/90_Quirion_Explorer.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "91",
+    "card_name": "Root Greevil",
+    "image_path": "data/reference_images/pls/91_Root_Greevil.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "92",
+    "card_name": "Skyshroud Blessing",
+    "image_path": "data/reference_images/pls/92_Skyshroud_Blessing.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "93",
+    "card_name": "Stone Kavu",
+    "image_path": "data/reference_images/pls/93_Stone_Kavu.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "94",
+    "card_name": "Thornscape Battlemage",
+    "image_path": "data/reference_images/pls/94_Thornscape_Battlemage.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "95",
+    "card_name": "Thornscape Familiar",
+    "image_path": "data/reference_images/pls/95_Thornscape_Familiar.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "96",
+    "card_name": "Ancient Spider",
+    "image_path": "data/reference_images/pls/96_Ancient_Spider.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "97",
+    "card_name": "Cavern Harpy",
+    "image_path": "data/reference_images/pls/97_Cavern_Harpy.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "98",
+    "card_name": "Cloud Cover",
+    "image_path": "data/reference_images/pls/98_Cloud_Cover.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "99",
+    "card_name": "Crosis s Charm",
+    "image_path": "data/reference_images/pls/99_Crosis_s_Charm.jpg"
+  },
+  {
+    "set_code": "pls",
+    "collector_number": "9",
+    "card_name": "Lashknife Barrier",
+    "image_path": "data/reference_images/pls/9_Lashknife_Barrier.jpg"
+  }
+]

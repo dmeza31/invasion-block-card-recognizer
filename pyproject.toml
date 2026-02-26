@@ -24,9 +24,15 @@ uvicorn = "*"
 python-multipart = "*"
 streamlit = "*"
 numpy = "*"
+setuptools = "*"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "*"
+
+[tool.pytest.ini_options]
+filterwarnings = [
+  "ignore:numpy.core._multiarray_umath is deprecated and has been renamed to numpy._core._multiarray_umath.*:DeprecationWarning:faiss.loader",
+]
 
 [build-system]
 requires = ["poetry-core>=1.9.0"]

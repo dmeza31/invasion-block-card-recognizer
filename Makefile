@@ -1,4 +1,4 @@
-.PHONY: install download-cards build-index run-api run-ui augment-dataset composite-cards composite-all-cards gst gpush
+.PHONY: install download-cards build-index build-faiss-index run-api run-ui augment-dataset composite-cards composite-all-cards embed-cards test-recognizer test-recognizer-reference test-recognizer-augmented gst gpush
 
 install:
 	poetry install
@@ -7,7 +7,10 @@ download-cards:
 	poetry run python -m dataset.downloader
 
 build-index:
-	poetry run python -m recognizer.build_index
+	poetry run python -m recognizer.index_builder
+
+build-faiss-index:
+	poetry run python -m recognizer.index_builder
 
 run-api:
 	poetry run uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload
@@ -23,6 +26,18 @@ composite-cards:
 
 composite-all-cards:
 	poetry run python -m dataset.compositor --reference-dir data/reference_images --backgrounds-dir data/backgrounds --output-dir data/composited --count-per-image 10 --background-count 20
+
+embed-cards:
+	poetry run python -c "import json, numpy as np; from pathlib import Path; from recognizer.embedder import CardEmbedder; image_dir=Path('data/reference_images'); out_embeddings=Path('data/card_embeddings.npy'); out_metadata=Path('data/embedding_metadata.json'); out_embeddings.parent.mkdir(parents=True, exist_ok=True); embedder=CardEmbedder(); embeddings, metadata=embedder.embed_directory(str(image_dir)); np.save(out_embeddings, embeddings); out_metadata.write_text(json.dumps(metadata, indent=2), encoding='utf-8'); print(f'Saved embeddings: {out_embeddings} shape={embeddings.shape}'); print(f'Saved metadata: {out_metadata} entries={len(metadata)}')"
+
+test-recognizer-composite:
+	poetry run pytest tests/test_recognizer_composite.py -s
+
+test-recognizer-reference:
+	poetry run pytest tests/test_recognizer_reference.py -s
+
+test-recognizer-augmented:
+	poetry run pytest tests/test_recognizer_augmented.py -s
 
 gst:
 	git status
