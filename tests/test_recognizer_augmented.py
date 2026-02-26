@@ -50,6 +50,16 @@ class TestCardRecognizerAugmented:
         collector_number = pieces[1]
         return set_code, collector_number
 
+    @staticmethod
+    def _accuracy_band(accuracy: float) -> str:
+        if accuracy >= 90:
+            return "excellent"
+        if accuracy >= 75:
+            return "strong"
+        if accuracy >= 50:
+            return "fair"
+        return "needs improvement"
+
     def test_random_augmented_accuracy(self) -> None:
         """Randomly sample augmented images and print Top-1/Top-5 accuracy."""
 
@@ -76,6 +86,7 @@ class TestCardRecognizerAugmented:
         top1_correct = 0
         top5_correct = 0
         unparsable_paths = 0
+        no_prediction_count = 0
 
         for image_path in sampled:
             expected = self._parse_truth_from_augmented_path(image_path, self.AUGMENTED_DIR)
@@ -88,6 +99,7 @@ class TestCardRecognizerAugmented:
             image_bytes = image_path.read_bytes()
             predictions = recognizer.recognize_from_bytes(image_bytes, top_k=5)
             if not predictions:
+                no_prediction_count += 1
                 continue
 
             total += 1
@@ -111,9 +123,20 @@ class TestCardRecognizerAugmented:
         top1_accuracy = (top1_correct / total) * 100
         top5_accuracy = (top5_correct / total) * 100
 
-        print("\nRecognizer Augmented Accuracy Summary")
-        print(f"- Evaluated samples: {total}")
-        print(f"- Random sample size requested: {sample_size}")
-        print(f"- Unparsable sampled paths: {unparsable_paths}")
-        print(f"- Top-1 Accuracy: {top1_accuracy:.2f}%")
-        print(f"- Top-5 Accuracy: {top5_accuracy:.2f}%")
+        top1_band = self._accuracy_band(top1_accuracy)
+        top5_band = self._accuracy_band(top5_accuracy)
+
+        print("\n=== Recognizer Augmented Benchmark ===")
+        print("Summary:")
+        print(f"  - Requested sample size: {sample_size}")
+        print(f"  - Evaluated samples: {total}")
+        print(f"  - Skipped (unparsable path): {unparsable_paths}")
+        print(f"  - Skipped (no predictions): {no_prediction_count}")
+        print("Metrics:")
+        print(f"  - Top-1 Accuracy: {top1_accuracy:.2f}% ({top1_correct}/{total})")
+        print("    Explanation: exact expected card is the #1 prediction.")
+        print(f"  - Top-5 Accuracy: {top5_accuracy:.2f}% ({top5_correct}/{total})")
+        print("    Explanation: expected card appears anywhere in the top 5 predictions.")
+        print("Interpretation:")
+        print(f"  - Top-1 quality: {top1_band}")
+        print(f"  - Top-5 quality: {top5_band}")
