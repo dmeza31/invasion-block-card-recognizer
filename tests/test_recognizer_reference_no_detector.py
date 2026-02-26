@@ -4,16 +4,13 @@ import os
 import random
 from pathlib import Path
 
-import cv2
 import pytest
-from PIL import Image
 
-from recognizer.detector import CardDetector
 from recognizer.recognizer import CardRecognizer
 
 
-class TestCardRecognizerReference:
-    """Benchmark CardRecognizer against clean reference images."""
+class TestCardRecognizerReferenceNoDetector:
+    """Benchmark CardRecognizer on reference images without detector preprocessing."""
 
     INDEX_PATH = Path("data/embeddings/invasion_block.index")
     METADATA_PATH = Path("data/embeddings/card_metadata.json")
@@ -49,8 +46,8 @@ class TestCardRecognizerReference:
             return "fair"
         return "needs improvement"
 
-    def test_random_reference_accuracy(self) -> None:
-        """Randomly sample clean references and print detection+recognition Top-1/Top-5 accuracy."""
+    def test_random_reference_accuracy_no_detector(self) -> None:
+        """Randomly sample reference images and evaluate direct recognition accuracy."""
 
         if not self.INDEX_PATH.exists() or not self.METADATA_PATH.exists():
             pytest.skip("Index/metadata artifacts not found. Run `make build-index` first.")
@@ -70,15 +67,12 @@ class TestCardRecognizerReference:
             index_path=self.INDEX_PATH.as_posix(),
             metadata_path=self.METADATA_PATH.as_posix(),
         )
-        detector = CardDetector()
 
         total = 0
         top1_correct = 0
         top5_correct = 0
         unparsable_paths = 0
         no_prediction_count = 0
-        unreadable_images = 0
-        total_detected_crops = 0
 
         for image_path in sampled:
             expected = self._parse_truth_from_reference_path(image_path, self.REFERENCE_DIR)
@@ -88,39 +82,24 @@ class TestCardRecognizerReference:
 
             expected_set_code, expected_collector_number = expected
 
-            source_bgr = cv2.imread(image_path.as_posix())
-            if source_bgr is None:
-                unreadable_images += 1
-                continue
-
-            detected_cards = detector.detect_and_crop(source_bgr)
-            total_detected_crops += len(detected_cards)
-
-            crop_predictions: list[list[dict[str, object]]] = []
-            for card_bgr in detected_cards:
-                card_rgb = cv2.cvtColor(card_bgr, cv2.COLOR_BGR2RGB)
-                card_image = Image.fromarray(card_rgb)
-                predictions = recognizer.recognize(card_image, top_k=5)
-                if predictions:
-                    crop_predictions.append(predictions)
-
-            if not crop_predictions:
+            image_bytes = image_path.read_bytes()
+            predictions = recognizer.recognize_from_bytes(image_bytes, top_k=5)
+            if not predictions:
                 no_prediction_count += 1
                 continue
 
             total += 1
 
-            if any(
-                str(predictions[0].get("set_code", "")).lower() == expected_set_code.lower()
-                and str(predictions[0].get("collector_number", "")) == expected_collector_number
-                for predictions in crop_predictions
+            top1 = predictions[0]
+            if (
+                str(top1.get("set_code", "")).lower() == expected_set_code.lower()
+                and str(top1.get("collector_number", "")) == expected_collector_number
             ):
                 top1_correct += 1
 
             if any(
                 str(pred.get("set_code", "")).lower() == expected_set_code.lower()
                 and str(pred.get("collector_number", "")) == expected_collector_number
-                for predictions in crop_predictions
                 for pred in predictions
             ):
                 top5_correct += 1
@@ -133,16 +112,12 @@ class TestCardRecognizerReference:
         top1_band = self._accuracy_band(top1_accuracy)
         top5_band = self._accuracy_band(top5_accuracy)
 
-        print("\n=== Recognizer Reference Benchmark ===")
+        print("\n=== Recognizer Reference Benchmark (No Detector) ===")
         print("Summary:")
         print(f"  - Requested sample size: {sample_size}")
         print(f"  - Evaluated samples: {total}")
         print(f"  - Skipped (unparsable path): {unparsable_paths}")
-        print(f"  - Skipped (unreadable image): {unreadable_images}")
         print(f"  - Skipped (no predictions): {no_prediction_count}")
-        print(f"  - Total detected crops: {total_detected_crops}")
-        if total > 0:
-            print(f"  - Avg detected crops per evaluated image: {total_detected_crops / total:.2f}")
         print("Metrics:")
         print(f"  - Top-1 Accuracy: {top1_accuracy:.2f}% ({top1_correct}/{total})")
         print("    Explanation: exact expected card is the #1 prediction.")

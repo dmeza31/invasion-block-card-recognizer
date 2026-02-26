@@ -25,6 +25,7 @@ python-multipart = "*"
 streamlit = "*"
 numpy = "*"
 setuptools = "*"
+opencv-python-headless = "*"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "*"

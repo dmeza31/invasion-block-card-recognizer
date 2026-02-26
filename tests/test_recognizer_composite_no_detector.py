@@ -4,16 +4,13 @@ import os
 import random
 from pathlib import Path
 
-import cv2
 import pytest
-from PIL import Image
 
-from recognizer.detector import CardDetector
 from recognizer.recognizer import CardRecognizer
 
 
-class TestCardRecognizer:
-    """Integration-style tests for CardRecognizer using composited images."""
+class TestCardRecognizerCompositeNoDetector:
+    """Benchmark CardRecognizer on composited images without detector preprocessing."""
 
     INDEX_PATH = Path("data/embeddings/invasion_block.index")
     METADATA_PATH = Path("data/embeddings/card_metadata.json")
@@ -25,11 +22,7 @@ class TestCardRecognizer:
 
     @staticmethod
     def _parse_expected_from_path(image_path: Path, composited_root: Path) -> tuple[str, str] | None:
-        """Parse expected (set_code, collector_number) from composited image path.
-
-        Expected structure:
-            data/composited/{set_code}/{collector_number}_{card_name}/composite_X.jpg
-        """
+        """Parse expected (set_code, collector_number) from composited image path."""
 
         try:
             relative = image_path.relative_to(composited_root)
@@ -58,8 +51,8 @@ class TestCardRecognizer:
             return "fair"
         return "needs improvement"
 
-    def test_random_composited_accuracy(self) -> None:
-        """Randomly sample composited images and print detection+recognition accuracy."""
+    def test_random_composited_accuracy_no_detector(self) -> None:
+        """Randomly sample composited images and evaluate direct recognition accuracy."""
 
         if not self.INDEX_PATH.exists() or not self.METADATA_PATH.exists():
             pytest.skip("Index/metadata artifacts not found. Run `make build-index` first.")
@@ -73,22 +66,18 @@ class TestCardRecognizer:
 
         sample_size = int(os.getenv("RECOGNIZER_TEST_SAMPLE_SIZE", "100"))
         sample_size = max(1, min(sample_size, len(images)))
-
         sampled = random.sample(images, sample_size)
 
         recognizer = CardRecognizer(
             index_path=self.INDEX_PATH.as_posix(),
             metadata_path=self.METADATA_PATH.as_posix(),
         )
-        detector = CardDetector()
 
         total = 0
         top1_correct = 0
         top5_correct = 0
         unparsable_paths = 0
         no_prediction_count = 0
-        unreadable_images = 0
-        total_detected_crops = 0
 
         for image_path in sampled:
             expected = self._parse_expected_from_path(image_path, self.COMPOSITED_DIR)
@@ -98,39 +87,25 @@ class TestCardRecognizer:
 
             expected_set_code, expected_collector_number = expected
 
-            source_bgr = cv2.imread(image_path.as_posix())
-            if source_bgr is None:
-                unreadable_images += 1
-                continue
+            image_bytes = image_path.read_bytes()
+            predictions = recognizer.recognize_from_bytes(image_bytes, top_k=5)
 
-            detected_cards = detector.detect_and_crop(source_bgr)
-            total_detected_crops += len(detected_cards)
-
-            crop_predictions: list[list[dict[str, object]]] = []
-            for card_bgr in detected_cards:
-                card_rgb = cv2.cvtColor(card_bgr, cv2.COLOR_BGR2RGB)
-                card_image = Image.fromarray(card_rgb)
-                predictions = recognizer.recognize(card_image, top_k=5)
-                if predictions:
-                    crop_predictions.append(predictions)
-
-            if not crop_predictions:
+            if not predictions:
                 no_prediction_count += 1
                 continue
 
             total += 1
 
-            if any(
-                str(predictions[0].get("set_code", "")) == expected_set_code
-                and str(predictions[0].get("collector_number", "")) == expected_collector_number
-                for predictions in crop_predictions
+            top1 = predictions[0]
+            if (
+                str(top1.get("set_code", "")) == expected_set_code
+                and str(top1.get("collector_number", "")) == expected_collector_number
             ):
                 top1_correct += 1
 
             if any(
                 str(pred.get("set_code", "")) == expected_set_code
                 and str(pred.get("collector_number", "")) == expected_collector_number
-                for predictions in crop_predictions
                 for pred in predictions
             ):
                 top5_correct += 1
@@ -143,16 +118,12 @@ class TestCardRecognizer:
         top1_band = self._accuracy_band(top1_accuracy)
         top5_band = self._accuracy_band(top5_accuracy)
 
-        print("\n=== Recognizer Composite Benchmark ===")
+        print("\n=== Recognizer Composite Benchmark (No Detector) ===")
         print("Summary:")
         print(f"  - Requested sample size: {sample_size}")
         print(f"  - Evaluated samples: {total}")
         print(f"  - Skipped (unparsable path): {unparsable_paths}")
-        print(f"  - Skipped (unreadable image): {unreadable_images}")
         print(f"  - Skipped (no predictions): {no_prediction_count}")
-        print(f"  - Total detected crops: {total_detected_crops}")
-        if total > 0:
-            print(f"  - Avg detected crops per evaluated image: {total_detected_crops / total:.2f}")
         print("Metrics:")
         print(f"  - Top-1 Accuracy: {top1_accuracy:.2f}% ({top1_correct}/{total})")
         print("    Explanation: exact expected card is the #1 prediction.")

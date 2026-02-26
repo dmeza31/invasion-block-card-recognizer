@@ -1,4 +1,4 @@
-.PHONY: install download-cards build-index build-faiss-index run-api run-ui augment-dataset composite-cards composite-all-cards embed-cards test-recognizer test-recognizer-reference test-recognizer-augmented gst gpush
+.PHONY: install download-cards build-index build-faiss-index run-api run-ui augment-dataset composite-cards composite-all-cards embed-cards test-recognizer test-recognizer-reference test-recognizer-augmented test-recognizer-composite-no-detector test-recognizer-reference-no-detector test-recognizer-augmented-no-detector test-detector gst gpush
 
 install:
 	poetry install
@@ -38,6 +38,18 @@ test-recognizer-reference:
 
 test-recognizer-augmented:
 	poetry run pytest tests/test_recognizer_augmented.py -s
+
+test-recognizer-composite-no-detector:
+	poetry run pytest tests/test_recognizer_composite_no_detector.py -s
+
+test-recognizer-reference-no-detector:
+	poetry run pytest tests/test_recognizer_reference_no_detector.py -s
+
+test-recognizer-augmented-no-detector:
+	poetry run pytest tests/test_recognizer_augmented_no_detector.py -s
+
+test-detector:
+	poetry run pytest tests/test_detector.py -q
 
 gst:
 	git status
