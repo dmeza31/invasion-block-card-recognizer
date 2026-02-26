@@ -11,13 +11,11 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "{{baseUrl}}/api/v1/health",
+          "raw": "{{baseUrl}}/health",
           "host": [
             "{{baseUrl}}"
           ],
           "path": [
-            "api",
-            "v1",
             "health"
           ]
         },
@@ -36,9 +34,322 @@
               "pm.test(\"Response contains status\", function () {",
               "  var jsonData = pm.response.json();",
               "  pm.expect(jsonData).to.have.property('status');",
+              "  pm.expect(jsonData.status).to.eql('ok');",
               "});"
             ]
           }
+        }
+      ]
+    },
+    {
+      "name": "Recognize Card",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "src": ""
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{baseUrl}}/recognize",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "recognize"
+          ]
+        },
+        "description": "Uploads a single JPEG/PNG image and returns recognized cards from detector+recognizer pipeline."
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "  pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has cards array\", function () {",
+              "  var jsonData = pm.response.json();",
+              "  pm.expect(jsonData).to.have.property('cards');",
+              "  pm.expect(jsonData.cards).to.be.an('array');",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Detect Card",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "src": ""
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{baseUrl}}/detect",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "detect"
+          ]
+        },
+        "description": "Uploads a single JPEG/PNG image and returns the detected card crop image."
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "  pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response is an image\", function () {",
+              "  var contentType = pm.response.headers.get('Content-Type') || '';",
+              "  pm.expect(contentType).to.match(/^image\\/jpeg/);",
+              "});",
+              "",
+              "pm.test(\"Response is downloadable file\", function () {",
+              "  var disposition = pm.response.headers.get('Content-Disposition') || '';",
+              "  pm.expect(disposition).to.include('attachment;');",
+              "  pm.expect(disposition).to.include('filename=');",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "List Cards",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/cards",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "cards"
+          ]
+        },
+        "description": "Returns full card metadata list from card catalog."
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "  pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has cards array\", function () {",
+              "  var jsonData = pm.response.json();",
+              "  pm.expect(jsonData).to.have.property('cards');",
+              "  pm.expect(jsonData.cards).to.be.an('array');",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "List Cards (Filtered)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/cards?set_code={{setCode}}&name={{cardNameQuery}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "cards"
+          ],
+          "query": [
+            {
+              "key": "set_code",
+              "value": "{{setCode}}"
+            },
+            {
+              "key": "name",
+              "value": "{{cardNameQuery}}"
+            }
+          ]
+        },
+        "description": "Returns filtered cards by optional set_code and name substring."
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "  pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has cards array\", function () {",
+              "  var jsonData = pm.response.json();",
+              "  pm.expect(jsonData).to.have.property('cards');",
+              "  pm.expect(jsonData.cards).to.be.an('array');",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Get Card Image",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/cards/{{setCode}}/{{collectorNumber}}/image",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "cards",
+            "{{setCode}}",
+            "{{collectorNumber}}",
+            "image"
+          ]
+        },
+        "description": "Returns reference card image by set code and collector number."
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "  pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response is an image\", function () {",
+              "  var contentType = pm.response.headers.get('Content-Type') || '';",
+              "  pm.expect(contentType).to.match(/^image\\/(jpeg|png)/);",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Negative Tests",
+      "item": [
+        {
+          "name": "Recognize - Invalid File Type (400)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "src": "{{invalidFilePath}}"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{baseUrl}}/recognize",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "recognize"
+              ]
+            },
+            "description": "Upload a non-image file (for example .txt) and expect HTTP 400. Set collection variable invalidFilePath before running."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test(\"Status code is 400\", function () {",
+                  "  pm.response.to.have.status(400);",
+                  "});",
+                  "",
+                  "pm.test(\"Response includes detail\", function () {",
+                  "  var jsonData = pm.response.json();",
+                  "  pm.expect(jsonData).to.have.property('detail');",
+                  "});"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Recognize - File Too Large (413)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "src": "{{oversizedImagePath}}"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{baseUrl}}/recognize",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "recognize"
+              ]
+            },
+            "description": "Upload a JPEG/PNG larger than 10MB and expect HTTP 413. Set collection variable oversizedImagePath before running."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test(\"Status code is 413\", function () {",
+                  "  pm.response.to.have.status(413);",
+                  "});",
+                  "",
+                  "pm.test(\"Response includes detail\", function () {",
+                  "  var jsonData = pm.response.json();",
+                  "  pm.expect(jsonData).to.have.property('detail');",
+                  "});"
+                ]
+              }
+            }
+          ]
         }
       ]
     }
@@ -47,6 +358,26 @@
     {
       "key": "baseUrl",
       "value": "http://localhost:8000"
+    },
+    {
+      "key": "invalidFilePath",
+      "value": ""
+    },
+    {
+      "key": "oversizedImagePath",
+      "value": ""
+    },
+    {
+      "key": "setCode",
+      "value": "inv"
+    },
+    {
+      "key": "collectorNumber",
+      "value": "226"
+    },
+    {
+      "key": "cardNameQuery",
+      "value": "Absorb"
     }
   ]
 }
